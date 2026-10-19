@@ -13,6 +13,7 @@ dist/
 *.egg-info/
 experiment_results/
 results/
+dataset/
 *.out.txt
 *.err.txt
 *.log

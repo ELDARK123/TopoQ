@@ -29,7 +29,9 @@ for the revision experiments. It is a research prototype; APIs may change.
 - Python 3.10 or newer
 - `networkx`
 
-The core package has no other mandatory third-party dependencies. Optional
+The core package has no other mandatory third-party dependencies. The
+repository contains source code only; the synthetic dataset needed by the
+quick-start command and tests is generated locally (see below). Optional
 public-benchmark and DQTetris comparison scripts require additional data and
 tools that are not bundled here.
 
@@ -48,9 +50,24 @@ For development, install the package in editable mode:
 pip install -e .
 ```
 
+## Generate the synthetic dataset
+
+The code-only repository does not ship JSON data. Generate the bundled
+synthetic DAG/circuit/system dataset before running the quick start or tests:
+
+```bash
+pip install numpy qiskit
+python generate_dataset.py --output-dir dataset
+```
+
+This creates `dataset/` locally (ignored by Git). The generator follows the
+model in `generate_dataset.py` and can also import MQT Bench QASM files with
+`--mqt-bench /path/to/mqt-bench`.
+
 ## Quick start
 
-Run a short synthetic TopoQ experiment from the repository root:
+Run a short synthetic TopoQ experiment from the repository root (after
+generating `dataset/`):
 
 ```bash
 python -m topoq \
@@ -81,8 +98,7 @@ topoq/                         Core scheduler, simulator, baselines, metrics
 scripts/
   run_public_scheduler_experiments.py
                                 Public-benchmark runner (external data required)
-tests/                         Regression and unit tests
-dataset/                       Bundled synthetic DAG/circuit/system data
+tests/                         Regression and unit tests (require generated dataset)
 generate_dataset.py            Synthetic dataset generator
 topoq_experiment.py            CLI wrapper for the experiment suite
 ```
@@ -94,7 +110,7 @@ and random seeds in its result provenance. Public-benchmark runs accept
 `--diagnostics` to persist per-task start/end/wait/EPR/communication/fidelity
 records and a critical-path decomposition alongside the aggregate metrics.
 
-The bundled `dataset/` is synthetic and self-contained. The public MQT Bench
+The dataset is generated locally and is not committed. The public MQT Bench
 inputs, DQTetris source, and DQTetris external-output adapter are kept outside
 this repository because they have separate provenance and third-party
 licenses.
