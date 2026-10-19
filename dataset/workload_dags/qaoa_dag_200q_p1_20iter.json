@@ -1,0 +1,1612 @@
+{
+  "id": "qaoa_dag_200q_p1_20iter",
+  "type": "QAOA",
+  "circuit_id": "qaoa_200q",
+  "n_qubits": 200,
+  "p": 1,
+  "n_iterations": 20,
+  "n_tasks": 100,
+  "n_quantum_tasks": 60,
+  "n_classical_tasks": 40,
+  "n_edges": 99,
+  "n_qc_feedback_edges": 39,
+  "tasks": [
+    {
+      "id": "t0",
+      "type": "quantum",
+      "name": "qaoa_cost_iter0_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t1",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter0_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t2",
+      "type": "quantum",
+      "name": "qaoa_measure_iter0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t3",
+      "type": "classical",
+      "name": "qaoa_objective_iter0",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t4",
+      "type": "classical",
+      "name": "qaoa_update_iter0",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t5",
+      "type": "quantum",
+      "name": "qaoa_cost_iter1_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t6",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter1_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t7",
+      "type": "quantum",
+      "name": "qaoa_measure_iter1",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t8",
+      "type": "classical",
+      "name": "qaoa_objective_iter1",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t9",
+      "type": "classical",
+      "name": "qaoa_update_iter1",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t10",
+      "type": "quantum",
+      "name": "qaoa_cost_iter2_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t11",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter2_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t12",
+      "type": "quantum",
+      "name": "qaoa_measure_iter2",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t13",
+      "type": "classical",
+      "name": "qaoa_objective_iter2",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t14",
+      "type": "classical",
+      "name": "qaoa_update_iter2",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t15",
+      "type": "quantum",
+      "name": "qaoa_cost_iter3_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t16",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter3_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t17",
+      "type": "quantum",
+      "name": "qaoa_measure_iter3",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t18",
+      "type": "classical",
+      "name": "qaoa_objective_iter3",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t19",
+      "type": "classical",
+      "name": "qaoa_update_iter3",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t20",
+      "type": "quantum",
+      "name": "qaoa_cost_iter4_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t21",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter4_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t22",
+      "type": "quantum",
+      "name": "qaoa_measure_iter4",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t23",
+      "type": "classical",
+      "name": "qaoa_objective_iter4",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t24",
+      "type": "classical",
+      "name": "qaoa_update_iter4",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t25",
+      "type": "quantum",
+      "name": "qaoa_cost_iter5_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t26",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter5_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t27",
+      "type": "quantum",
+      "name": "qaoa_measure_iter5",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t28",
+      "type": "classical",
+      "name": "qaoa_objective_iter5",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t29",
+      "type": "classical",
+      "name": "qaoa_update_iter5",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t30",
+      "type": "quantum",
+      "name": "qaoa_cost_iter6_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t31",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter6_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t32",
+      "type": "quantum",
+      "name": "qaoa_measure_iter6",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t33",
+      "type": "classical",
+      "name": "qaoa_objective_iter6",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t34",
+      "type": "classical",
+      "name": "qaoa_update_iter6",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t35",
+      "type": "quantum",
+      "name": "qaoa_cost_iter7_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t36",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter7_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t37",
+      "type": "quantum",
+      "name": "qaoa_measure_iter7",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t38",
+      "type": "classical",
+      "name": "qaoa_objective_iter7",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t39",
+      "type": "classical",
+      "name": "qaoa_update_iter7",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t40",
+      "type": "quantum",
+      "name": "qaoa_cost_iter8_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t41",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter8_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t42",
+      "type": "quantum",
+      "name": "qaoa_measure_iter8",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t43",
+      "type": "classical",
+      "name": "qaoa_objective_iter8",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t44",
+      "type": "classical",
+      "name": "qaoa_update_iter8",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t45",
+      "type": "quantum",
+      "name": "qaoa_cost_iter9_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t46",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter9_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t47",
+      "type": "quantum",
+      "name": "qaoa_measure_iter9",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t48",
+      "type": "classical",
+      "name": "qaoa_objective_iter9",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t49",
+      "type": "classical",
+      "name": "qaoa_update_iter9",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t50",
+      "type": "quantum",
+      "name": "qaoa_cost_iter10_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t51",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter10_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t52",
+      "type": "quantum",
+      "name": "qaoa_measure_iter10",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t53",
+      "type": "classical",
+      "name": "qaoa_objective_iter10",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t54",
+      "type": "classical",
+      "name": "qaoa_update_iter10",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t55",
+      "type": "quantum",
+      "name": "qaoa_cost_iter11_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t56",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter11_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t57",
+      "type": "quantum",
+      "name": "qaoa_measure_iter11",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t58",
+      "type": "classical",
+      "name": "qaoa_objective_iter11",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t59",
+      "type": "classical",
+      "name": "qaoa_update_iter11",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t60",
+      "type": "quantum",
+      "name": "qaoa_cost_iter12_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t61",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter12_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t62",
+      "type": "quantum",
+      "name": "qaoa_measure_iter12",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t63",
+      "type": "classical",
+      "name": "qaoa_objective_iter12",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t64",
+      "type": "classical",
+      "name": "qaoa_update_iter12",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t65",
+      "type": "quantum",
+      "name": "qaoa_cost_iter13_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t66",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter13_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t67",
+      "type": "quantum",
+      "name": "qaoa_measure_iter13",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t68",
+      "type": "classical",
+      "name": "qaoa_objective_iter13",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t69",
+      "type": "classical",
+      "name": "qaoa_update_iter13",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t70",
+      "type": "quantum",
+      "name": "qaoa_cost_iter14_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t71",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter14_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t72",
+      "type": "quantum",
+      "name": "qaoa_measure_iter14",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t73",
+      "type": "classical",
+      "name": "qaoa_objective_iter14",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t74",
+      "type": "classical",
+      "name": "qaoa_update_iter14",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t75",
+      "type": "quantum",
+      "name": "qaoa_cost_iter15_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t76",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter15_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t77",
+      "type": "quantum",
+      "name": "qaoa_measure_iter15",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t78",
+      "type": "classical",
+      "name": "qaoa_objective_iter15",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t79",
+      "type": "classical",
+      "name": "qaoa_update_iter15",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t80",
+      "type": "quantum",
+      "name": "qaoa_cost_iter16_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t81",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter16_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t82",
+      "type": "quantum",
+      "name": "qaoa_measure_iter16",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t83",
+      "type": "classical",
+      "name": "qaoa_objective_iter16",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t84",
+      "type": "classical",
+      "name": "qaoa_update_iter16",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t85",
+      "type": "quantum",
+      "name": "qaoa_cost_iter17_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t86",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter17_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t87",
+      "type": "quantum",
+      "name": "qaoa_measure_iter17",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t88",
+      "type": "classical",
+      "name": "qaoa_objective_iter17",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t89",
+      "type": "classical",
+      "name": "qaoa_update_iter17",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t90",
+      "type": "quantum",
+      "name": "qaoa_cost_iter18_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t91",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter18_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t92",
+      "type": "quantum",
+      "name": "qaoa_measure_iter18",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t93",
+      "type": "classical",
+      "name": "qaoa_objective_iter18",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t94",
+      "type": "classical",
+      "name": "qaoa_update_iter18",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    },
+    {
+      "id": "t95",
+      "type": "quantum",
+      "name": "qaoa_cost_iter19_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 20.0,
+      "qaoa_layer": "cost",
+      "layer_idx": 0
+    },
+    {
+      "id": "t96",
+      "type": "quantum",
+      "name": "qaoa_mixer_iter19_layer0",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0,
+      "qaoa_layer": "mixer",
+      "layer_idx": 0
+    },
+    {
+      "id": "t97",
+      "type": "quantum",
+      "name": "qaoa_measure_iter19",
+      "circuit_id": "qaoa_200q",
+      "n_qubits": 200,
+      "n_gates": 200,
+      "depth": 1,
+      "estimated_time_ms": 10.0
+    },
+    {
+      "id": "t98",
+      "type": "classical",
+      "name": "qaoa_objective_iter19",
+      "workload_flops": 200000000.0,
+      "memory_mb": 200,
+      "estimated_time_ms": 20.0
+    },
+    {
+      "id": "t99",
+      "type": "classical",
+      "name": "qaoa_update_iter19",
+      "workload_flops": 10000000.0,
+      "memory_mb": 100,
+      "estimated_time_ms": 0.5
+    }
+  ],
+  "edges": [
+    {
+      "source": "t0",
+      "target": "t1",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t1",
+      "target": "t2",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t2",
+      "target": "t3",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t3",
+      "target": "t4",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t5",
+      "target": "t6",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t6",
+      "target": "t7",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t7",
+      "target": "t8",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t8",
+      "target": "t9",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t10",
+      "target": "t11",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t11",
+      "target": "t12",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t12",
+      "target": "t13",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t13",
+      "target": "t14",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t15",
+      "target": "t16",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t16",
+      "target": "t17",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t17",
+      "target": "t18",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t18",
+      "target": "t19",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t20",
+      "target": "t21",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t21",
+      "target": "t22",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t22",
+      "target": "t23",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t23",
+      "target": "t24",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t25",
+      "target": "t26",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t26",
+      "target": "t27",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t27",
+      "target": "t28",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t28",
+      "target": "t29",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t30",
+      "target": "t31",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t31",
+      "target": "t32",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t32",
+      "target": "t33",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t33",
+      "target": "t34",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t35",
+      "target": "t36",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t36",
+      "target": "t37",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t37",
+      "target": "t38",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t38",
+      "target": "t39",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t40",
+      "target": "t41",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t41",
+      "target": "t42",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t42",
+      "target": "t43",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t43",
+      "target": "t44",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t45",
+      "target": "t46",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t46",
+      "target": "t47",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t47",
+      "target": "t48",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t48",
+      "target": "t49",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t50",
+      "target": "t51",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t51",
+      "target": "t52",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t52",
+      "target": "t53",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t53",
+      "target": "t54",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t55",
+      "target": "t56",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t56",
+      "target": "t57",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t57",
+      "target": "t58",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t58",
+      "target": "t59",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t60",
+      "target": "t61",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t61",
+      "target": "t62",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t62",
+      "target": "t63",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t63",
+      "target": "t64",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t65",
+      "target": "t66",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t66",
+      "target": "t67",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t67",
+      "target": "t68",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t68",
+      "target": "t69",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t70",
+      "target": "t71",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t71",
+      "target": "t72",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t72",
+      "target": "t73",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t73",
+      "target": "t74",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t75",
+      "target": "t76",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t76",
+      "target": "t77",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t77",
+      "target": "t78",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t78",
+      "target": "t79",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t80",
+      "target": "t81",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t81",
+      "target": "t82",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t82",
+      "target": "t83",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t83",
+      "target": "t84",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t85",
+      "target": "t86",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t86",
+      "target": "t87",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t87",
+      "target": "t88",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t88",
+      "target": "t89",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t90",
+      "target": "t91",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t91",
+      "target": "t92",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t92",
+      "target": "t93",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t93",
+      "target": "t94",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t95",
+      "target": "t96",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t96",
+      "target": "t97",
+      "type": "quantum-quantum",
+      "data_volume_bits": 200
+    },
+    {
+      "source": "t97",
+      "target": "t98",
+      "type": "quantum-classical",
+      "data_volume_bits": 200000
+    },
+    {
+      "source": "t98",
+      "target": "t99",
+      "type": "classical-classical",
+      "data_volume_bits": 64
+    },
+    {
+      "source": "t4",
+      "target": "t5",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t9",
+      "target": "t10",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t14",
+      "target": "t15",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t19",
+      "target": "t20",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t24",
+      "target": "t25",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t29",
+      "target": "t30",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t34",
+      "target": "t35",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t39",
+      "target": "t40",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t44",
+      "target": "t45",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t49",
+      "target": "t50",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t54",
+      "target": "t55",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t59",
+      "target": "t60",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t64",
+      "target": "t65",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t69",
+      "target": "t70",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t74",
+      "target": "t75",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t79",
+      "target": "t80",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t84",
+      "target": "t85",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t89",
+      "target": "t90",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    },
+    {
+      "source": "t94",
+      "target": "t95",
+      "type": "classical-quantum",
+      "data_volume_bits": 128
+    }
+  ],
+  "description": "QAOA DAG: 20 iterations, p=1, 200 qubits"
+}

@@ -1,0 +1,345 @@
+{
+  "name": "fattree_k4",
+  "n_nodes": 40,
+  "n_edges": 32,
+  "n_hosts": 8,
+  "n_routers": 12,
+  "nodes": [
+    {
+      "id": 0,
+      "type": "core"
+    },
+    {
+      "id": 1,
+      "type": "core"
+    },
+    {
+      "id": 2,
+      "type": "core"
+    },
+    {
+      "id": 3,
+      "type": "core"
+    },
+    {
+      "id": 4,
+      "type": "aggregation"
+    },
+    {
+      "id": 5,
+      "type": "aggregation"
+    },
+    {
+      "id": 6,
+      "type": "aggregation"
+    },
+    {
+      "id": 7,
+      "type": "aggregation"
+    },
+    {
+      "id": 8,
+      "type": "edge"
+    },
+    {
+      "id": 9,
+      "type": "edge"
+    },
+    {
+      "id": 10,
+      "type": "edge"
+    },
+    {
+      "id": 11,
+      "type": "edge"
+    },
+    {
+      "id": 12,
+      "type": "host"
+    },
+    {
+      "id": 13,
+      "type": "host"
+    },
+    {
+      "id": 14,
+      "type": "host"
+    },
+    {
+      "id": 15,
+      "type": "host"
+    },
+    {
+      "id": 16,
+      "type": "host"
+    },
+    {
+      "id": 17,
+      "type": "host"
+    },
+    {
+      "id": 18,
+      "type": "host"
+    },
+    {
+      "id": 19,
+      "type": "host"
+    },
+    {
+      "id": "edge_4"
+    },
+    {
+      "id": "edge_5"
+    },
+    {
+      "id": "edge_6"
+    },
+    {
+      "id": "edge_7"
+    },
+    {
+      "id": "host_12"
+    },
+    {
+      "id": "host_13"
+    },
+    {
+      "id": "host_14"
+    },
+    {
+      "id": "host_15"
+    },
+    {
+      "id": "host_16"
+    },
+    {
+      "id": "host_17"
+    },
+    {
+      "id": "host_18"
+    },
+    {
+      "id": "host_19"
+    },
+    {
+      "id": "host_20"
+    },
+    {
+      "id": "host_21"
+    },
+    {
+      "id": "host_22"
+    },
+    {
+      "id": "host_23"
+    },
+    {
+      "id": "host_24"
+    },
+    {
+      "id": "host_25"
+    },
+    {
+      "id": "host_26"
+    },
+    {
+      "id": "host_27"
+    }
+  ],
+  "edges": [
+    {
+      "source": "core_0",
+      "target": "agg_0",
+      "bandwidth_gbps": 100,
+      "latency_us": 2
+    },
+    {
+      "source": "core_0",
+      "target": "agg_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 2
+    },
+    {
+      "source": "core_1",
+      "target": "agg_1",
+      "bandwidth_gbps": 100,
+      "latency_us": 2
+    },
+    {
+      "source": "core_1",
+      "target": "agg_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 2
+    },
+    {
+      "source": "core_2",
+      "target": "agg_0",
+      "bandwidth_gbps": 100,
+      "latency_us": 2
+    },
+    {
+      "source": "core_2",
+      "target": "agg_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 2
+    },
+    {
+      "source": "core_3",
+      "target": "agg_1",
+      "bandwidth_gbps": 100,
+      "latency_us": 2
+    },
+    {
+      "source": "core_3",
+      "target": "agg_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 2
+    },
+    {
+      "source": "agg_0",
+      "target": "edge_0",
+      "bandwidth_gbps": 40,
+      "latency_us": 1
+    },
+    {
+      "source": "agg_0",
+      "target": "edge_1",
+      "bandwidth_gbps": 40,
+      "latency_us": 1
+    },
+    {
+      "source": "agg_1",
+      "target": "edge_2",
+      "bandwidth_gbps": 40,
+      "latency_us": 1
+    },
+    {
+      "source": "agg_1",
+      "target": "edge_3",
+      "bandwidth_gbps": 40,
+      "latency_us": 1
+    },
+    {
+      "source": "agg_2",
+      "target": "edge_4",
+      "bandwidth_gbps": 40,
+      "latency_us": 1
+    },
+    {
+      "source": "agg_2",
+      "target": "edge_5",
+      "bandwidth_gbps": 40,
+      "latency_us": 1
+    },
+    {
+      "source": "agg_3",
+      "target": "edge_6",
+      "bandwidth_gbps": 40,
+      "latency_us": 1
+    },
+    {
+      "source": "agg_3",
+      "target": "edge_7",
+      "bandwidth_gbps": 40,
+      "latency_us": 1
+    },
+    {
+      "source": "edge_0",
+      "target": "host_12",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_0",
+      "target": "host_13",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_1",
+      "target": "host_14",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_1",
+      "target": "host_15",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_2",
+      "target": "host_16",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_2",
+      "target": "host_17",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_3",
+      "target": "host_18",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_3",
+      "target": "host_19",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_4",
+      "target": "host_20",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_4",
+      "target": "host_21",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_5",
+      "target": "host_22",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_5",
+      "target": "host_23",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_6",
+      "target": "host_24",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_6",
+      "target": "host_25",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_7",
+      "target": "host_26",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    },
+    {
+      "source": "edge_7",
+      "target": "host_27",
+      "bandwidth_gbps": 10,
+      "latency_us": 0.5
+    }
+  ],
+  "diameter": -1,
+  "avg_shortest_path": -1
+}

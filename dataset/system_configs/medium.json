@@ -1,0 +1,1378 @@
+{
+  "name": "Medium",
+  "n_qpus": 8,
+  "qpu_type": "ibm_sydney",
+  "n_classical_nodes": 16,
+  "classical_node_types": {
+    "CPU": 8,
+    "GPU": 6,
+    "TPU": 2
+  },
+  "network_topology": "dragonfly_4x4x2",
+  "network_type": "Dragonfly",
+  "qpu_instances": [
+    {
+      "qpu_id": "Q0",
+      "chip_type": "ibm_sydney",
+      "n_qubits": 27,
+      "coherence_time_us": 251.3,
+      "gate_times_ns": {
+        "1q": 35.6,
+        "2q": 334.0,
+        "measure": 1200.0
+      },
+      "gate_error_rates": {
+        "1q": 0.00026,
+        "2q": 0.001596,
+        "measure": 0.004653
+      },
+      "topology": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          26
+        ]
+      ],
+      "topology_type": "heavy-hex",
+      "topology_source": "IBM Quantum coupling map"
+    },
+    {
+      "qpu_id": "Q1",
+      "chip_type": "ibm_sydney",
+      "n_qubits": 27,
+      "coherence_time_us": 191.8,
+      "gate_times_ns": {
+        "1q": 35.6,
+        "2q": 334.0,
+        "measure": 1200.0
+      },
+      "gate_error_rates": {
+        "1q": 0.000387,
+        "2q": 0.002914,
+        "measure": 0.002997
+      },
+      "topology": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          26
+        ]
+      ],
+      "topology_type": "heavy-hex",
+      "topology_source": "IBM Quantum coupling map"
+    },
+    {
+      "qpu_id": "Q2",
+      "chip_type": "ibm_sydney",
+      "n_qubits": 27,
+      "coherence_time_us": 271.2,
+      "gate_times_ns": {
+        "1q": 35.6,
+        "2q": 334.0,
+        "measure": 1200.0
+      },
+      "gate_error_rates": {
+        "1q": 0.000357,
+        "2q": 0.002286,
+        "measure": 0.001559
+      },
+      "topology": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          26
+        ]
+      ],
+      "topology_type": "heavy-hex",
+      "topology_source": "IBM Quantum coupling map"
+    },
+    {
+      "qpu_id": "Q3",
+      "chip_type": "ibm_sydney",
+      "n_qubits": 27,
+      "coherence_time_us": 236.2,
+      "gate_times_ns": {
+        "1q": 35.6,
+        "2q": 334.0,
+        "measure": 1200.0
+      },
+      "gate_error_rates": {
+        "1q": 0.000316,
+        "2q": 0.007723,
+        "measure": 0.002714
+      },
+      "topology": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          26
+        ]
+      ],
+      "topology_type": "heavy-hex",
+      "topology_source": "IBM Quantum coupling map"
+    },
+    {
+      "qpu_id": "Q4",
+      "chip_type": "ibm_sydney",
+      "n_qubits": 27,
+      "coherence_time_us": 195.9,
+      "gate_times_ns": {
+        "1q": 35.6,
+        "2q": 334.0,
+        "measure": 1200.0
+      },
+      "gate_error_rates": {
+        "1q": 0.000245,
+        "2q": 0.009976,
+        "measure": 0.001553
+      },
+      "topology": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          26
+        ]
+      ],
+      "topology_type": "heavy-hex",
+      "topology_source": "IBM Quantum coupling map"
+    },
+    {
+      "qpu_id": "Q5",
+      "chip_type": "ibm_sydney",
+      "n_qubits": 27,
+      "coherence_time_us": 173.4,
+      "gate_times_ns": {
+        "1q": 35.6,
+        "2q": 334.0,
+        "measure": 1200.0
+      },
+      "gate_error_rates": {
+        "1q": 0.000402,
+        "2q": 0.00875,
+        "measure": 0.001611
+      },
+      "topology": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          26
+        ]
+      ],
+      "topology_type": "heavy-hex",
+      "topology_source": "IBM Quantum coupling map"
+    },
+    {
+      "qpu_id": "Q6",
+      "chip_type": "ibm_sydney",
+      "n_qubits": 27,
+      "coherence_time_us": 90.0,
+      "gate_times_ns": {
+        "1q": 35.6,
+        "2q": 334.0,
+        "measure": 1200.0
+      },
+      "gate_error_rates": {
+        "1q": 0.000372,
+        "2q": 0.006368,
+        "measure": 0.002539
+      },
+      "topology": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          26
+        ]
+      ],
+      "topology_type": "heavy-hex",
+      "topology_source": "IBM Quantum coupling map"
+    },
+    {
+      "qpu_id": "Q7",
+      "chip_type": "ibm_sydney",
+      "n_qubits": 27,
+      "coherence_time_us": 199.0,
+      "gate_times_ns": {
+        "1q": 35.6,
+        "2q": 334.0,
+        "measure": 1200.0
+      },
+      "gate_error_rates": {
+        "1q": 0.000287,
+        "2q": 0.003263,
+        "measure": 0.003213
+      },
+      "topology": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          26
+        ]
+      ],
+      "topology_type": "heavy-hex",
+      "topology_source": "IBM Quantum coupling map"
+    }
+  ],
+  "classical_instances": [
+    {
+      "node_id": "P0",
+      "type": "CPU",
+      "compute_speed_tflops": 2.86,
+      "memory_gb": 256
+    },
+    {
+      "node_id": "P1",
+      "type": "CPU",
+      "compute_speed_tflops": 2.3,
+      "memory_gb": 256
+    },
+    {
+      "node_id": "P2",
+      "type": "CPU",
+      "compute_speed_tflops": 2.71,
+      "memory_gb": 128
+    },
+    {
+      "node_id": "P3",
+      "type": "CPU",
+      "compute_speed_tflops": 2.42,
+      "memory_gb": 128
+    },
+    {
+      "node_id": "P4",
+      "type": "CPU",
+      "compute_speed_tflops": 0.78,
+      "memory_gb": 128
+    },
+    {
+      "node_id": "P5",
+      "type": "CPU",
+      "compute_speed_tflops": 0.9,
+      "memory_gb": 64
+    },
+    {
+      "node_id": "P6",
+      "type": "CPU",
+      "compute_speed_tflops": 2.88,
+      "memory_gb": 256
+    },
+    {
+      "node_id": "P7",
+      "type": "CPU",
+      "compute_speed_tflops": 1.16,
+      "memory_gb": 256
+    },
+    {
+      "node_id": "P8",
+      "type": "GPU",
+      "compute_speed_tflops": 63.34,
+      "memory_gb": 80
+    },
+    {
+      "node_id": "P9",
+      "type": "GPU",
+      "compute_speed_tflops": 73.88,
+      "memory_gb": 80
+    },
+    {
+      "node_id": "P10",
+      "type": "GPU",
+      "compute_speed_tflops": 30.89,
+      "memory_gb": 80
+    },
+    {
+      "node_id": "P11",
+      "type": "GPU",
+      "compute_speed_tflops": 45.54,
+      "memory_gb": 32
+    },
+    {
+      "node_id": "P12",
+      "type": "GPU",
+      "compute_speed_tflops": 20.7,
+      "memory_gb": 32
+    },
+    {
+      "node_id": "P13",
+      "type": "GPU",
+      "compute_speed_tflops": 47.76,
+      "memory_gb": 80
+    },
+    {
+      "node_id": "P14",
+      "type": "TPU",
+      "compute_speed_tflops": 187.77,
+      "memory_gb": 32
+    },
+    {
+      "node_id": "P15",
+      "type": "TPU",
+      "compute_speed_tflops": 123.29,
+      "memory_gb": 16
+    }
+  ],
+  "quantum_links": [
+    {
+      "qpu_i": "Q0",
+      "qpu_j": "Q1",
+      "entanglement_rate_hz": 1000,
+      "decoherence_rate_per_ms": 0.0316,
+      "max_concurrent_epr": 8,
+      "distance_km": 44.0
+    },
+    {
+      "qpu_i": "Q0",
+      "qpu_j": "Q2",
+      "entanglement_rate_hz": 100,
+      "decoherence_rate_per_ms": 0.0759,
+      "max_concurrent_epr": 4,
+      "distance_km": 48.9
+    },
+    {
+      "qpu_i": "Q0",
+      "qpu_j": "Q3",
+      "entanglement_rate_hz": 500,
+      "decoherence_rate_per_ms": 0.0216,
+      "max_concurrent_epr": 32,
+      "distance_km": 47.4
+    },
+    {
+      "qpu_i": "Q0",
+      "qpu_j": "Q5",
+      "entanglement_rate_hz": 10000,
+      "decoherence_rate_per_ms": 0.0481,
+      "max_concurrent_epr": 8,
+      "distance_km": 46.5
+    },
+    {
+      "qpu_i": "Q0",
+      "qpu_j": "Q6",
+      "entanglement_rate_hz": 500,
+      "decoherence_rate_per_ms": 0.0742,
+      "max_concurrent_epr": 32,
+      "distance_km": 49.8
+    },
+    {
+      "qpu_i": "Q0",
+      "qpu_j": "Q7",
+      "entanglement_rate_hz": 5000,
+      "decoherence_rate_per_ms": 0.091,
+      "max_concurrent_epr": 32,
+      "distance_km": 6.9
+    },
+    {
+      "qpu_i": "Q1",
+      "qpu_j": "Q3",
+      "entanglement_rate_hz": 10000,
+      "decoherence_rate_per_ms": 0.0599,
+      "max_concurrent_epr": 8,
+      "distance_km": 1.4
+    },
+    {
+      "qpu_i": "Q1",
+      "qpu_j": "Q4",
+      "entanglement_rate_hz": 100,
+      "decoherence_rate_per_ms": 0.0306,
+      "max_concurrent_epr": 4,
+      "distance_km": 43.1
+    },
+    {
+      "qpu_i": "Q1",
+      "qpu_j": "Q7",
+      "entanglement_rate_hz": 500,
+      "decoherence_rate_per_ms": 0.0585,
+      "max_concurrent_epr": 32,
+      "distance_km": 12.9
+    },
+    {
+      "qpu_i": "Q2",
+      "qpu_j": "Q3",
+      "entanglement_rate_hz": 5000,
+      "decoherence_rate_per_ms": 0.0271,
+      "max_concurrent_epr": 4,
+      "distance_km": 33.3
+    },
+    {
+      "qpu_i": "Q2",
+      "qpu_j": "Q4",
+      "entanglement_rate_hz": 5000,
+      "decoherence_rate_per_ms": 0.052,
+      "max_concurrent_epr": 4,
+      "distance_km": 34.0
+    },
+    {
+      "qpu_i": "Q2",
+      "qpu_j": "Q5",
+      "entanglement_rate_hz": 100,
+      "decoherence_rate_per_ms": 0.0155,
+      "max_concurrent_epr": 16,
+      "distance_km": 40.2
+    },
+    {
+      "qpu_i": "Q3",
+      "qpu_j": "Q4",
+      "entanglement_rate_hz": 500,
+      "decoherence_rate_per_ms": 0.048,
+      "max_concurrent_epr": 16,
+      "distance_km": 23.7
+    },
+    {
+      "qpu_i": "Q3",
+      "qpu_j": "Q5",
+      "entanglement_rate_hz": 100,
+      "decoherence_rate_per_ms": 0.0499,
+      "max_concurrent_epr": 4,
+      "distance_km": 3.5
+    },
+    {
+      "qpu_i": "Q3",
+      "qpu_j": "Q6",
+      "entanglement_rate_hz": 100,
+      "decoherence_rate_per_ms": 0.0972,
+      "max_concurrent_epr": 8,
+      "distance_km": 9.1
+    },
+    {
+      "qpu_i": "Q3",
+      "qpu_j": "Q7",
+      "entanglement_rate_hz": 500,
+      "decoherence_rate_per_ms": 0.0878,
+      "max_concurrent_epr": 4,
+      "distance_km": 9.1
+    },
+    {
+      "qpu_i": "Q4",
+      "qpu_j": "Q6",
+      "entanglement_rate_hz": 5000,
+      "decoherence_rate_per_ms": 0.0357,
+      "max_concurrent_epr": 32,
+      "distance_km": 8.6
+    },
+    {
+      "qpu_i": "Q5",
+      "qpu_j": "Q6",
+      "entanglement_rate_hz": 10000,
+      "decoherence_rate_per_ms": 0.0762,
+      "max_concurrent_epr": 4,
+      "distance_km": 37.7
+    },
+    {
+      "qpu_i": "Q6",
+      "qpu_j": "Q7",
+      "entanglement_rate_hz": 10000,
+      "decoherence_rate_per_ms": 0.0927,
+      "max_concurrent_epr": 8,
+      "distance_km": 3.8
+    }
+  ],
+  "interface_links": [
+    {
+      "qpu_id": "Q0",
+      "classical_node_id": "P0",
+      "readout_latency_us": 5.57,
+      "control_bandwidth_gbps": 5
+    },
+    {
+      "qpu_id": "Q1",
+      "classical_node_id": "P1",
+      "readout_latency_us": 1.62,
+      "control_bandwidth_gbps": 1
+    },
+    {
+      "qpu_id": "Q2",
+      "classical_node_id": "P2",
+      "readout_latency_us": 7.08,
+      "control_bandwidth_gbps": 5
+    },
+    {
+      "qpu_id": "Q3",
+      "classical_node_id": "P3",
+      "readout_latency_us": 4.63,
+      "control_bandwidth_gbps": 5
+    },
+    {
+      "qpu_id": "Q4",
+      "classical_node_id": "P4",
+      "readout_latency_us": 6.21,
+      "control_bandwidth_gbps": 1
+    },
+    {
+      "qpu_id": "Q5",
+      "classical_node_id": "P5",
+      "readout_latency_us": 6.57,
+      "control_bandwidth_gbps": 25
+    },
+    {
+      "qpu_id": "Q6",
+      "classical_node_id": "P6",
+      "readout_latency_us": 6.92,
+      "control_bandwidth_gbps": 10
+    },
+    {
+      "qpu_id": "Q7",
+      "classical_node_id": "P7",
+      "readout_latency_us": 9.41,
+      "control_bandwidth_gbps": 5
+    }
+  ],
+  "network_stats": {
+    "n_nodes": 48,
+    "n_edges": 62,
+    "diameter": 5
+  }
+}

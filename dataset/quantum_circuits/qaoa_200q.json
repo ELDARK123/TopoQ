@@ -1,0 +1,1218 @@
+{
+  "id": "qaoa_200q",
+  "type": "QAOA",
+  "n_qubits": 200,
+  "depth": 2,
+  "n_gates": 600,
+  "gate_counts": {
+    "1q": 400,
+    "2q": 200
+  },
+  "source": "synthetic (parameterized from literature)",
+  "description": "QAOA MaxCut, 200 variables, p=1",
+  "problem": "MaxCut",
+  "graph_density": 0.35,
+  "interactions": [
+    {
+      "source": 0,
+      "target": 71,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 0,
+      "target": 144,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 1,
+      "target": 45,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 1,
+      "target": 125,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 1,
+      "target": 137,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 2,
+      "target": 140,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 3,
+      "target": 87,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 3,
+      "target": 165,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 4,
+      "target": 15,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 5,
+      "target": 188,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 6,
+      "target": 19,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 6,
+      "target": 53,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 6,
+      "target": 197,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 7,
+      "target": 82,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 7,
+      "target": 121,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 10,
+      "target": 43,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 10,
+      "target": 132,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 10,
+      "target": 141,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 11,
+      "target": 65,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 11,
+      "target": 85,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 11,
+      "target": 102,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 13,
+      "target": 68,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 13,
+      "target": 121,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 15,
+      "target": 108,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 17,
+      "target": 94,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 17,
+      "target": 176,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 17,
+      "target": 179,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 18,
+      "target": 138,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 20,
+      "target": 46,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 20,
+      "target": 80,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 20,
+      "target": 115,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 20,
+      "target": 120,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 20,
+      "target": 179,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 21,
+      "target": 29,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 21,
+      "target": 69,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 21,
+      "target": 101,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 21,
+      "target": 144,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 21,
+      "target": 175,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 22,
+      "target": 123,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 23,
+      "target": 49,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 23,
+      "target": 68,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 23,
+      "target": 80,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 23,
+      "target": 90,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 23,
+      "target": 91,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 23,
+      "target": 153,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 24,
+      "target": 84,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 24,
+      "target": 102,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 24,
+      "target": 105,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 25,
+      "target": 172,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 26,
+      "target": 127,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 26,
+      "target": 148,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 27,
+      "target": 117,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 27,
+      "target": 128,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 28,
+      "target": 52,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 28,
+      "target": 65,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 28,
+      "target": 124,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 28,
+      "target": 152,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 28,
+      "target": 156,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 29,
+      "target": 30,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 29,
+      "target": 82,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 30,
+      "target": 143,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 30,
+      "target": 185,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 31,
+      "target": 150,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 32,
+      "target": 78,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 33,
+      "target": 48,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 33,
+      "target": 60,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 34,
+      "target": 44,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 34,
+      "target": 52,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 34,
+      "target": 69,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 34,
+      "target": 71,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 34,
+      "target": 80,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 35,
+      "target": 43,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 35,
+      "target": 73,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 35,
+      "target": 167,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 35,
+      "target": 171,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 35,
+      "target": 172,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 36,
+      "target": 102,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 36,
+      "target": 142,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 36,
+      "target": 145,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 36,
+      "target": 185,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 38,
+      "target": 42,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 38,
+      "target": 122,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 38,
+      "target": 148,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 39,
+      "target": 118,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 39,
+      "target": 184,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 41,
+      "target": 104,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 42,
+      "target": 146,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 43,
+      "target": 102,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 43,
+      "target": 104,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 43,
+      "target": 144,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 44,
+      "target": 84,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 44,
+      "target": 198,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 45,
+      "target": 132,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 45,
+      "target": 144,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 45,
+      "target": 173,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 45,
+      "target": 187,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 45,
+      "target": 194,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 46,
+      "target": 143,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 46,
+      "target": 172,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 46,
+      "target": 192,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 47,
+      "target": 145,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 50,
+      "target": 54,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 50,
+      "target": 59,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 50,
+      "target": 81,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 50,
+      "target": 126,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 51,
+      "target": 110,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 52,
+      "target": 59,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 53,
+      "target": 181,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 56,
+      "target": 108,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 57,
+      "target": 161,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 58,
+      "target": 66,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 58,
+      "target": 180,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 59,
+      "target": 106,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 60,
+      "target": 78,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 60,
+      "target": 119,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 60,
+      "target": 180,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 60,
+      "target": 199,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 61,
+      "target": 193,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 64,
+      "target": 113,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 64,
+      "target": 163,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 64,
+      "target": 195,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 65,
+      "target": 122,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 66,
+      "target": 109,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 67,
+      "target": 87,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 68,
+      "target": 132,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 68,
+      "target": 157,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 69,
+      "target": 106,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 70,
+      "target": 182,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 71,
+      "target": 178,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 71,
+      "target": 181,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 72,
+      "target": 83,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 74,
+      "target": 91,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 75,
+      "target": 81,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 75,
+      "target": 108,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 75,
+      "target": 161,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 77,
+      "target": 161,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 79,
+      "target": 104,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 80,
+      "target": 163,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 82,
+      "target": 138,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 83,
+      "target": 110,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 83,
+      "target": 145,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 83,
+      "target": 157,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 84,
+      "target": 94,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 85,
+      "target": 117,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 86,
+      "target": 118,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 86,
+      "target": 148,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 88,
+      "target": 96,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 88,
+      "target": 183,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 90,
+      "target": 143,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 91,
+      "target": 100,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 92,
+      "target": 97,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 92,
+      "target": 196,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 93,
+      "target": 109,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 94,
+      "target": 188,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 97,
+      "target": 148,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 102,
+      "target": 182,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 103,
+      "target": 138,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 104,
+      "target": 174,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 105,
+      "target": 111,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 108,
+      "target": 174,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 110,
+      "target": 136,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 111,
+      "target": 160,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 112,
+      "target": 142,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 113,
+      "target": 150,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 113,
+      "target": 159,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 114,
+      "target": 136,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 115,
+      "target": 128,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 116,
+      "target": 124,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 117,
+      "target": 187,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 119,
+      "target": 122,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 119,
+      "target": 125,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 121,
+      "target": 164,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 122,
+      "target": 176,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 123,
+      "target": 183,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 126,
+      "target": 148,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 127,
+      "target": 174,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 127,
+      "target": 191,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 130,
+      "target": 183,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 131,
+      "target": 141,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 131,
+      "target": 188,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 133,
+      "target": 158,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 134,
+      "target": 176,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 139,
+      "target": 157,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 143,
+      "target": 186,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 144,
+      "target": 148,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 144,
+      "target": 173,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 146,
+      "target": 151,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 149,
+      "target": 165,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 151,
+      "target": 157,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 152,
+      "target": 187,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 155,
+      "target": 175,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 156,
+      "target": 193,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 156,
+      "target": 198,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 158,
+      "target": 179,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 159,
+      "target": 165,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 162,
+      "target": 176,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 162,
+      "target": 194,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 163,
+      "target": 191,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 172,
+      "target": 188,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    },
+    {
+      "source": 183,
+      "target": 194,
+      "two_qubit_gates": 1,
+      "frequency": 0.005
+    }
+  ],
+  "interaction_source": "deterministic synthetic circuit-family model"
+}

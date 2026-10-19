@@ -1,0 +1,75 @@
+{
+  "description": "TopoQ Experimental Dataset",
+  "paper": "TopoQ: Topology-Aware Scheduling for Hybrid Quantum-Classical Computing Systems",
+  "venue": "IEEE INFOCOM",
+  "generation_date": "2026-06-23",
+  "random_seed": 42,
+  "components": {
+    "ibm_chips": {
+      "description": "IBM quantum chip topologies from Qiskit fake providers",
+      "count": 7,
+      "chips": [
+        "ibm_guadalupe",
+        "ibm_sydney",
+        "ibm_tokyo",
+        "ibm_rochester",
+        "ibm_montreal",
+        "ibm_washington",
+        "ibm_brooklyn"
+      ],
+      "directory": "ibm_chips/"
+    },
+    "network_topologies": {
+      "description": "Classical network topologies (Fat-Tree, Dragonfly, Dragonfly+)",
+      "count": 4,
+      "topologies": [
+        "fattree_k4",
+        "fattree_k8",
+        "dragonfly_4x4x2",
+        "dragonflyplus_8x8x4"
+      ],
+      "directory": "network_topologies/"
+    },
+    "system_configs": {
+      "description": "Hybrid system configurations (Small, Medium, Large)",
+      "count": 3,
+      "configs": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "directory": "system_configs/"
+    },
+    "quantum_circuits": {
+      "description": "Quantum circuit benchmarks (VQE, QAOA, QML, QFT, GHZ)",
+      "count": 22,
+      "circuit_types": [
+        "GHZ",
+        "QML",
+        "QFT",
+        "QAOA",
+        "VQE"
+      ],
+      "directory": "quantum_circuits/"
+    },
+    "workload_dags": {
+      "description": "Hybrid quantum-classical workload DAGs",
+      "count": 48,
+      "dag_types": [
+        "QML",
+        "VQE",
+        "QAOA"
+      ],
+      "directory": "workload_dags/"
+    },
+    "sim_params": {
+      "description": "Simulation parameters matching Section 3 of the paper",
+      "directory": "sim_params/"
+    }
+  },
+  "usage": {
+    "compile": "pdflatex TopoQ_INFOCOM && bibtex TopoQ_INFOCOM && pdflatex TopoQ_INFOCOM",
+    "dataset_generation": "python generate_dataset.py --output-dir ./dataset",
+    "with_mqt_bench": "python generate_dataset.py --output-dir ./dataset --mqt-bench /path/to/mqt-bench"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "fidelity_parameters": {
+    "F_prep": 0.999,
+    "epsilon_1q": 0.0001,
+    "epsilon_2q_range": [
+      0.001,
+      0.01
+    ],
+    "epsilon_measure": 0.005,
+    "F_EPR_range": [
+      0.85,
+      0.95
+    ],
+    "F_min": 0.99,
+    "F_min_qaoa": 0.985
+  },
+  "purification_parameters": {
+    "default_mode": "none",
+    "model": "BBPSSW_Werner_ideal",
+    "max_rounds": 8,
+    "physical_fidelity_unchanged": true
+  },
+  "quantum_link_parameters": {
+    "lambda_range_hz": [
+      100,
+      10000
+    ],
+    "lambda_typical_hz": 1000,
+    "eta_range_per_ms": [
+      0.01,
+      0.1
+    ],
+    "eta_typical_per_ms": 0.05,
+    "b_range": [
+      4,
+      32
+    ],
+    "b_typical": 16,
+    "v_signal_ms": 200000000.0
+  },
+  "classical_link_parameters": {
+    "B_range_gbps": [
+      10,
+      200
+    ],
+    "B_host_gbps": 10,
+    "B_edge_gbps": 40,
+    "B_agg_gbps": 100,
+    "B_core_gbps": 200,
+    "L_range_us": [
+      0.5,
+      5
+    ],
+    "L_host_us": 0.5,
+    "L_edge_us": 1,
+    "L_agg_us": 2,
+    "L_core_us": 2
+  },
+  "interface_link_parameters": {
+    "rho_range_us": [
+      1,
+      10
+    ],
+    "rho_typical_us": 5,
+    "R_range_gbps": [
+      1,
+      25
+    ],
+    "R_typical_gbps": 10
+  },
+  "qpu_parameters": {
+    "T_coh_range_us": [
+      50,
+      300
+    ],
+    "T_coh_typical_us": 100,
+    "tau_1q_ns": 35.6,
+    "tau_2q_ns": 334.0,
+    "tau_measure_ns": 1200.0,
+    "tau_Bell_ns": 100.0,
+    "tau_swap_ns": 200.0,
+    "n_qubits_small": 16,
+    "n_qubits_medium": 27,
+    "n_qubits_large": 127
+  },
+  "classical_node_parameters": {
+    "p_cpu_tflops": [
+      0.5,
+      3.0
+    ],
+    "p_gpu_tflops": [
+      10,
+      80
+    ],
+    "p_tpu_tflops": [
+      50,
+      200
+    ],
+    "m_cpu_gb": [
+      64,
+      256
+    ],
+    "m_gpu_gb": [
+      32,
+      80
+    ],
+    "m_tpu_gb": [
+      16,
+      32
+    ]
+  },
+  "algorithm_parameters": {
+    "w1": 0.5,
+    "w2": 0.3,
+    "w3": 0.2,
+    "beta": 0.5,
+    "mu1": 0.6,
+    "mu2": 0.4,
+    "T_safety_fraction": 0.05
+  },
+  "evaluation_parameters": {
+    "n_repetitions": 3,
+    "random_seed_base": 42,
+    "confidence_level": 0.95
+  },
+  "baselines": {
+    "Random": {
+      "description": "Random task placement without topology awareness"
+    },
+    "Greedy": {
+      "description": "Greedy load balancing without topology awareness"
+    },
+    "Q-Only": {
+      "description": "Optimize quantum scheduling only, ignoring classical placement"
+    },
+    "DQTetris": {
+      "description": "State-of-the-art circuit mapping (Xu et al. SC 2025)",
+      "reference": "[7] in paper"
+    }
+  }
+}

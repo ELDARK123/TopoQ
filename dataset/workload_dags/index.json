@@ -1,0 +1,338 @@
+{
+  "vqe_dag_50q_5iter": {
+    "type": "VQE",
+    "n_tasks": 65,
+    "n_quantum_tasks": 55,
+    "n_classical_tasks": 10,
+    "n_edges": 109
+  },
+  "vqe_dag_50q_10iter": {
+    "type": "VQE",
+    "n_tasks": 130,
+    "n_quantum_tasks": 110,
+    "n_classical_tasks": 20,
+    "n_edges": 219
+  },
+  "vqe_dag_50q_20iter": {
+    "type": "VQE",
+    "n_tasks": 260,
+    "n_quantum_tasks": 220,
+    "n_classical_tasks": 40,
+    "n_edges": 439
+  },
+  "vqe_dag_80q_5iter": {
+    "type": "VQE",
+    "n_tasks": 95,
+    "n_quantum_tasks": 85,
+    "n_classical_tasks": 10,
+    "n_edges": 169
+  },
+  "vqe_dag_80q_10iter": {
+    "type": "VQE",
+    "n_tasks": 190,
+    "n_quantum_tasks": 170,
+    "n_classical_tasks": 20,
+    "n_edges": 339
+  },
+  "vqe_dag_80q_20iter": {
+    "type": "VQE",
+    "n_tasks": 380,
+    "n_quantum_tasks": 340,
+    "n_classical_tasks": 40,
+    "n_edges": 679
+  },
+  "vqe_dag_100q_5iter": {
+    "type": "VQE",
+    "n_tasks": 115,
+    "n_quantum_tasks": 105,
+    "n_classical_tasks": 10,
+    "n_edges": 209
+  },
+  "vqe_dag_100q_10iter": {
+    "type": "VQE",
+    "n_tasks": 230,
+    "n_quantum_tasks": 210,
+    "n_classical_tasks": 20,
+    "n_edges": 419
+  },
+  "vqe_dag_100q_20iter": {
+    "type": "VQE",
+    "n_tasks": 460,
+    "n_quantum_tasks": 420,
+    "n_classical_tasks": 40,
+    "n_edges": 839
+  },
+  "vqe_dag_120q_5iter": {
+    "type": "VQE",
+    "n_tasks": 115,
+    "n_quantum_tasks": 105,
+    "n_classical_tasks": 10,
+    "n_edges": 209
+  },
+  "vqe_dag_120q_10iter": {
+    "type": "VQE",
+    "n_tasks": 230,
+    "n_quantum_tasks": 210,
+    "n_classical_tasks": 20,
+    "n_edges": 419
+  },
+  "vqe_dag_120q_20iter": {
+    "type": "VQE",
+    "n_tasks": 460,
+    "n_quantum_tasks": 420,
+    "n_classical_tasks": 40,
+    "n_edges": 839
+  },
+  "vqe_dag_150q_5iter": {
+    "type": "VQE",
+    "n_tasks": 115,
+    "n_quantum_tasks": 105,
+    "n_classical_tasks": 10,
+    "n_edges": 209
+  },
+  "vqe_dag_150q_10iter": {
+    "type": "VQE",
+    "n_tasks": 230,
+    "n_quantum_tasks": 210,
+    "n_classical_tasks": 20,
+    "n_edges": 419
+  },
+  "vqe_dag_150q_20iter": {
+    "type": "VQE",
+    "n_tasks": 460,
+    "n_quantum_tasks": 420,
+    "n_classical_tasks": 40,
+    "n_edges": 839
+  },
+  "vqe_dag_200q_5iter": {
+    "type": "VQE",
+    "n_tasks": 115,
+    "n_quantum_tasks": 105,
+    "n_classical_tasks": 10,
+    "n_edges": 209
+  },
+  "vqe_dag_200q_10iter": {
+    "type": "VQE",
+    "n_tasks": 230,
+    "n_quantum_tasks": 210,
+    "n_classical_tasks": 20,
+    "n_edges": 419
+  },
+  "vqe_dag_200q_20iter": {
+    "type": "VQE",
+    "n_tasks": 460,
+    "n_quantum_tasks": 420,
+    "n_classical_tasks": 40,
+    "n_edges": 839
+  },
+  "qaoa_dag_100q_p5_5iter": {
+    "type": "QAOA",
+    "n_tasks": 65,
+    "n_quantum_tasks": 55,
+    "n_classical_tasks": 10,
+    "n_edges": 64
+  },
+  "qaoa_dag_100q_p5_10iter": {
+    "type": "QAOA",
+    "n_tasks": 130,
+    "n_quantum_tasks": 110,
+    "n_classical_tasks": 20,
+    "n_edges": 129
+  },
+  "qaoa_dag_100q_p5_20iter": {
+    "type": "QAOA",
+    "n_tasks": 260,
+    "n_quantum_tasks": 220,
+    "n_classical_tasks": 40,
+    "n_edges": 259
+  },
+  "qaoa_dag_150q_p5_5iter": {
+    "type": "QAOA",
+    "n_tasks": 65,
+    "n_quantum_tasks": 55,
+    "n_classical_tasks": 10,
+    "n_edges": 64
+  },
+  "qaoa_dag_150q_p5_10iter": {
+    "type": "QAOA",
+    "n_tasks": 130,
+    "n_quantum_tasks": 110,
+    "n_classical_tasks": 20,
+    "n_edges": 129
+  },
+  "qaoa_dag_150q_p5_20iter": {
+    "type": "QAOA",
+    "n_tasks": 260,
+    "n_quantum_tasks": 220,
+    "n_classical_tasks": 40,
+    "n_edges": 259
+  },
+  "qaoa_dag_200q_p1_5iter": {
+    "type": "QAOA",
+    "n_tasks": 25,
+    "n_quantum_tasks": 15,
+    "n_classical_tasks": 10,
+    "n_edges": 24
+  },
+  "qaoa_dag_200q_p1_10iter": {
+    "type": "QAOA",
+    "n_tasks": 50,
+    "n_quantum_tasks": 30,
+    "n_classical_tasks": 20,
+    "n_edges": 49
+  },
+  "qaoa_dag_200q_p1_20iter": {
+    "type": "QAOA",
+    "n_tasks": 100,
+    "n_quantum_tasks": 60,
+    "n_classical_tasks": 40,
+    "n_edges": 99
+  },
+  "qaoa_dag_300q_p2_5iter": {
+    "type": "QAOA",
+    "n_tasks": 35,
+    "n_quantum_tasks": 25,
+    "n_classical_tasks": 10,
+    "n_edges": 34
+  },
+  "qaoa_dag_300q_p2_10iter": {
+    "type": "QAOA",
+    "n_tasks": 70,
+    "n_quantum_tasks": 50,
+    "n_classical_tasks": 20,
+    "n_edges": 69
+  },
+  "qaoa_dag_300q_p2_20iter": {
+    "type": "QAOA",
+    "n_tasks": 140,
+    "n_quantum_tasks": 100,
+    "n_classical_tasks": 40,
+    "n_edges": 139
+  },
+  "qaoa_dag_500q_p3_5iter": {
+    "type": "QAOA",
+    "n_tasks": 45,
+    "n_quantum_tasks": 35,
+    "n_classical_tasks": 10,
+    "n_edges": 44
+  },
+  "qaoa_dag_500q_p3_10iter": {
+    "type": "QAOA",
+    "n_tasks": 90,
+    "n_quantum_tasks": 70,
+    "n_classical_tasks": 20,
+    "n_edges": 89
+  },
+  "qaoa_dag_500q_p3_20iter": {
+    "type": "QAOA",
+    "n_tasks": 180,
+    "n_quantum_tasks": 140,
+    "n_classical_tasks": 40,
+    "n_edges": 179
+  },
+  "qml_dag_80q_5iter": {
+    "type": "QML",
+    "n_tasks": 270,
+    "n_quantum_tasks": 260,
+    "n_classical_tasks": 10,
+    "n_edges": 519
+  },
+  "qml_dag_80q_10iter": {
+    "type": "QML",
+    "n_tasks": 540,
+    "n_quantum_tasks": 520,
+    "n_classical_tasks": 20,
+    "n_edges": 1039
+  },
+  "qml_dag_80q_20iter": {
+    "type": "QML",
+    "n_tasks": 1080,
+    "n_quantum_tasks": 1040,
+    "n_classical_tasks": 40,
+    "n_edges": 2079
+  },
+  "qml_dag_120q_5iter": {
+    "type": "QML",
+    "n_tasks": 270,
+    "n_quantum_tasks": 260,
+    "n_classical_tasks": 10,
+    "n_edges": 519
+  },
+  "qml_dag_120q_10iter": {
+    "type": "QML",
+    "n_tasks": 540,
+    "n_quantum_tasks": 520,
+    "n_classical_tasks": 20,
+    "n_edges": 1039
+  },
+  "qml_dag_120q_20iter": {
+    "type": "QML",
+    "n_tasks": 1080,
+    "n_quantum_tasks": 1040,
+    "n_classical_tasks": 40,
+    "n_edges": 2079
+  },
+  "qml_dag_150q_5iter": {
+    "type": "QML",
+    "n_tasks": 270,
+    "n_quantum_tasks": 260,
+    "n_classical_tasks": 10,
+    "n_edges": 519
+  },
+  "qml_dag_150q_10iter": {
+    "type": "QML",
+    "n_tasks": 540,
+    "n_quantum_tasks": 520,
+    "n_classical_tasks": 20,
+    "n_edges": 1039
+  },
+  "qml_dag_150q_20iter": {
+    "type": "QML",
+    "n_tasks": 1080,
+    "n_quantum_tasks": 1040,
+    "n_classical_tasks": 40,
+    "n_edges": 2079
+  },
+  "qml_dag_200q_5iter": {
+    "type": "QML",
+    "n_tasks": 270,
+    "n_quantum_tasks": 260,
+    "n_classical_tasks": 10,
+    "n_edges": 519
+  },
+  "qml_dag_200q_10iter": {
+    "type": "QML",
+    "n_tasks": 540,
+    "n_quantum_tasks": 520,
+    "n_classical_tasks": 20,
+    "n_edges": 1039
+  },
+  "qml_dag_200q_20iter": {
+    "type": "QML",
+    "n_tasks": 1080,
+    "n_quantum_tasks": 1040,
+    "n_classical_tasks": 40,
+    "n_edges": 2079
+  },
+  "qml_dag_300q_5iter": {
+    "type": "QML",
+    "n_tasks": 270,
+    "n_quantum_tasks": 260,
+    "n_classical_tasks": 10,
+    "n_edges": 519
+  },
+  "qml_dag_300q_10iter": {
+    "type": "QML",
+    "n_tasks": 540,
+    "n_quantum_tasks": 520,
+    "n_classical_tasks": 20,
+    "n_edges": 1039
+  },
+  "qml_dag_300q_20iter": {
+    "type": "QML",
+    "n_tasks": 1080,
+    "n_quantum_tasks": 1040,
+    "n_classical_tasks": 40,
+    "n_edges": 2079
+  }
+}

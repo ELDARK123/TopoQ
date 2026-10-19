@@ -1,0 +1,200 @@
+{
+  "vqe_50q": {
+    "type": "VQE",
+    "n_qubits": 50,
+    "depth": 6,
+    "n_gates": 300,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 50,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "vqe_80q": {
+    "type": "VQE",
+    "n_qubits": 80,
+    "depth": 12,
+    "n_gates": 960,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 80,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "vqe_100q": {
+    "type": "VQE",
+    "n_qubits": 100,
+    "depth": 15,
+    "n_gates": 1500,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 100,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "vqe_120q": {
+    "type": "VQE",
+    "n_qubits": 120,
+    "depth": 18,
+    "n_gates": 2160,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 120,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "vqe_150q": {
+    "type": "VQE",
+    "n_qubits": 150,
+    "depth": 21,
+    "n_gates": 3150,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 150,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "vqe_200q": {
+    "type": "VQE",
+    "n_qubits": 200,
+    "depth": 30,
+    "n_gates": 6000,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 200,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qaoa_100q": {
+    "type": "QAOA",
+    "n_qubits": 100,
+    "depth": 10,
+    "n_gates": 1500,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 500,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qaoa_150q": {
+    "type": "QAOA",
+    "n_qubits": 150,
+    "depth": 10,
+    "n_gates": 2250,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 750,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qaoa_200q": {
+    "type": "QAOA",
+    "n_qubits": 200,
+    "depth": 2,
+    "n_gates": 600,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 200,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qaoa_300q": {
+    "type": "QAOA",
+    "n_qubits": 300,
+    "depth": 4,
+    "n_gates": 1800,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 600,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qaoa_500q": {
+    "type": "QAOA",
+    "n_qubits": 500,
+    "depth": 6,
+    "n_gates": 4500,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 1500,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qml_80q": {
+    "type": "QML",
+    "n_qubits": 80,
+    "depth": 12,
+    "n_gates": 960,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 80,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qml_120q": {
+    "type": "QML",
+    "n_qubits": 120,
+    "depth": 16,
+    "n_gates": 1920,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 120,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qml_150q": {
+    "type": "QML",
+    "n_qubits": 150,
+    "depth": 20,
+    "n_gates": 3000,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 150,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qml_200q": {
+    "type": "QML",
+    "n_qubits": 200,
+    "depth": 24,
+    "n_gates": 4800,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 200,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qml_300q": {
+    "type": "QML",
+    "n_qubits": 300,
+    "depth": 40,
+    "n_gates": 12000,
+    "source": "synthetic (parameterized from literature)",
+    "n_interactions": 300,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qft_50q": {
+    "type": "QFT",
+    "n_qubits": 50,
+    "depth": 50,
+    "n_gates": 2500,
+    "source": "synthetic",
+    "n_interactions": 1225,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qft_100q": {
+    "type": "QFT",
+    "n_qubits": 100,
+    "depth": 100,
+    "n_gates": 10000,
+    "source": "synthetic",
+    "n_interactions": 4950,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "qft_200q": {
+    "type": "QFT",
+    "n_qubits": 200,
+    "depth": 200,
+    "n_gates": 40000,
+    "source": "synthetic",
+    "n_interactions": 19900,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "ghz_50q": {
+    "type": "GHZ",
+    "n_qubits": 50,
+    "depth": 49,
+    "n_gates": 50,
+    "source": "synthetic",
+    "n_interactions": 49,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "ghz_100q": {
+    "type": "GHZ",
+    "n_qubits": 100,
+    "depth": 99,
+    "n_gates": 100,
+    "source": "synthetic",
+    "n_interactions": 99,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  },
+  "ghz_200q": {
+    "type": "GHZ",
+    "n_qubits": 200,
+    "depth": 199,
+    "n_gates": 200,
+    "source": "synthetic",
+    "n_interactions": 199,
+    "interaction_source": "deterministic synthetic circuit-family model"
+  }
+}

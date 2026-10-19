@@ -1,0 +1,91 @@
+{
+  "snapshot_format_version": 1,
+  "localization_date": "2026-07-31",
+  "purpose": "Preserve IBM historical calibration values with explicit source units for reproducible TopoQ dataset generation.",
+  "files": [
+    {
+      "file": "props_guadalupe.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\guadalupe\\props_guadalupe.json",
+      "sha256": "d937e2349009a67452c5c2e80a1e4a128f2c90cc39197bd38d464fca06454719",
+      "source_kind": "Qiskit fake-provider historical properties snapshot"
+    },
+    {
+      "file": "conf_guadalupe.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\guadalupe\\conf_guadalupe.json",
+      "sha256": "b03d0ee9768a9dd2926ce290fa818c75feae5077ab77063e2fd53ca06e3ef886",
+      "source_kind": "Qiskit fake-provider backend configuration"
+    },
+    {
+      "file": "props_sydney.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\sydney\\props_sydney.json",
+      "sha256": "91b0573bb10da6e0737c6f175dd7d0616d796b895a09aa40d0b768b667fc619a",
+      "source_kind": "Qiskit fake-provider historical properties snapshot"
+    },
+    {
+      "file": "conf_sydney.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\sydney\\conf_sydney.json",
+      "sha256": "047cc30807e1bfb07ec8961ce93cd4bb79c706c7a86f6fe1617084f6d27be966",
+      "source_kind": "Qiskit fake-provider backend configuration"
+    },
+    {
+      "file": "props_tokyo.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\tokyo\\props_tokyo.json",
+      "sha256": "3e2bdff8579c2a99fe843735a33c7a84e51b4a7ce080c80923b200997faa0d4b",
+      "source_kind": "Qiskit fake-provider historical properties snapshot"
+    },
+    {
+      "file": "conf_tokyo.json",
+      "source": "C:\\Users\\wdy\\Desktop\\TopoQ\\TopoQ_v2\\2026-06-21-21-02-10\\dataset\\ibm_chips\\ibm_tokyo.json",
+      "sha256": "04bf96e4cbf97c2c00fd739b340a647bc32745a31f8245bb6d0802a28259f62d",
+      "source_kind": "Configuration derived from the preserved TopoQ chip topology"
+    },
+    {
+      "file": "props_rochester.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\rochester\\props_rochester.json",
+      "sha256": "2b761e856cb3f82a3ce2ad57ff59c5e17c03b3098ddd10bf90ba7ece3c4c5713",
+      "source_kind": "Qiskit fake-provider historical properties snapshot"
+    },
+    {
+      "file": "conf_rochester.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\rochester\\conf_rochester.json",
+      "sha256": "8cef8118251d9c405088c66b4db8938452775f34016761938f52bc034d8f0363",
+      "source_kind": "Qiskit fake-provider backend configuration"
+    },
+    {
+      "file": "props_montreal.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\montreal\\props_montreal.json",
+      "sha256": "5ff486753fe466487b6c32877fa9713ce26a6de926388473541a6f6ef80b9119",
+      "source_kind": "Qiskit fake-provider historical properties snapshot"
+    },
+    {
+      "file": "conf_montreal.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\montreal\\conf_montreal.json",
+      "sha256": "3b40249f102908d1d67ddfba4df445f021a4b24a78e052814b91f0f4e94b9719",
+      "source_kind": "Qiskit fake-provider backend configuration"
+    },
+    {
+      "file": "props_washington.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\washington\\props_washington.json",
+      "sha256": "7c30d6c731810719438df47fc7695d5e1275f156221fe28d4bbeb7c74c9b5190",
+      "source_kind": "Qiskit fake-provider historical properties snapshot"
+    },
+    {
+      "file": "conf_washington.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\washington\\conf_washington.json",
+      "sha256": "bb40aae075936a74422e3661c9d135f01d0d4aca20ee05911848cf2161a91561",
+      "source_kind": "Qiskit fake-provider backend configuration"
+    },
+    {
+      "file": "props_brooklyn.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\brooklyn\\props_brooklyn.json",
+      "sha256": "1993e2329fb08ec8921d714a5fb09fc0549f9daaf76550cb66f9d30f1dd82b48",
+      "source_kind": "Qiskit fake-provider historical properties snapshot"
+    },
+    {
+      "file": "conf_brooklyn.json",
+      "source": "C:\\Users\\wdy\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\qiskit\\providers\\fake_provider\\backends\\brooklyn\\conf_brooklyn.json",
+      "sha256": "60ad73b4656bbbe16191a22e615c29c758e1066101675ce366265a6466991a84",
+      "source_kind": "Qiskit fake-provider backend configuration"
+    }
+  ]
+}

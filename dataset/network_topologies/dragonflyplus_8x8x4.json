@@ -1,0 +1,4725 @@
+{
+  "name": "dragonflyplus_8x8x4",
+  "n_nodes": 320,
+  "n_edges": 508,
+  "n_hosts": 256,
+  "n_routers": 64,
+  "nodes": [
+    {
+      "id": 0,
+      "type": "router",
+      "group": 0,
+      "level": 1
+    },
+    {
+      "id": 0,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 1,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 2,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 3,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 1,
+      "type": "router",
+      "group": 0,
+      "level": 1
+    },
+    {
+      "id": 4,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 5,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 6,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 7,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 2,
+      "type": "router",
+      "group": 0,
+      "level": 1
+    },
+    {
+      "id": 8,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 9,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 10,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 11,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 3,
+      "type": "router",
+      "group": 0,
+      "level": 1
+    },
+    {
+      "id": 12,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 13,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 14,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 15,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 4,
+      "type": "router",
+      "group": 0,
+      "level": 1
+    },
+    {
+      "id": 16,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 17,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 18,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 19,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 5,
+      "type": "router",
+      "group": 0,
+      "level": 1
+    },
+    {
+      "id": 20,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 21,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 22,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 23,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 6,
+      "type": "router",
+      "group": 0,
+      "level": 1
+    },
+    {
+      "id": 24,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 25,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 26,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 27,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 7,
+      "type": "router",
+      "group": 0,
+      "level": 1
+    },
+    {
+      "id": 28,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 29,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 30,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 31,
+      "type": "host",
+      "group": 0
+    },
+    {
+      "id": 8,
+      "type": "router",
+      "group": 1,
+      "level": 1
+    },
+    {
+      "id": 32,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 33,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 34,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 35,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 9,
+      "type": "router",
+      "group": 1,
+      "level": 1
+    },
+    {
+      "id": 36,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 37,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 38,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 39,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 10,
+      "type": "router",
+      "group": 1,
+      "level": 1
+    },
+    {
+      "id": 40,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 41,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 42,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 43,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 11,
+      "type": "router",
+      "group": 1,
+      "level": 1
+    },
+    {
+      "id": 44,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 45,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 46,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 47,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 12,
+      "type": "router",
+      "group": 1,
+      "level": 1
+    },
+    {
+      "id": 48,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 49,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 50,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 51,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 13,
+      "type": "router",
+      "group": 1,
+      "level": 1
+    },
+    {
+      "id": 52,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 53,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 54,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 55,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 14,
+      "type": "router",
+      "group": 1,
+      "level": 1
+    },
+    {
+      "id": 56,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 57,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 58,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 59,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 15,
+      "type": "router",
+      "group": 1,
+      "level": 1
+    },
+    {
+      "id": 60,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 61,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 62,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 63,
+      "type": "host",
+      "group": 1
+    },
+    {
+      "id": 16,
+      "type": "router",
+      "group": 2,
+      "level": 1
+    },
+    {
+      "id": 64,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 65,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 66,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 67,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 17,
+      "type": "router",
+      "group": 2,
+      "level": 1
+    },
+    {
+      "id": 68,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 69,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 70,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 71,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 18,
+      "type": "router",
+      "group": 2,
+      "level": 1
+    },
+    {
+      "id": 72,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 73,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 74,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 75,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 19,
+      "type": "router",
+      "group": 2,
+      "level": 1
+    },
+    {
+      "id": 76,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 77,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 78,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 79,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 20,
+      "type": "router",
+      "group": 2,
+      "level": 1
+    },
+    {
+      "id": 80,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 81,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 82,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 83,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 21,
+      "type": "router",
+      "group": 2,
+      "level": 1
+    },
+    {
+      "id": 84,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 85,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 86,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 87,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 22,
+      "type": "router",
+      "group": 2,
+      "level": 1
+    },
+    {
+      "id": 88,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 89,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 90,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 91,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 23,
+      "type": "router",
+      "group": 2,
+      "level": 1
+    },
+    {
+      "id": 92,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 93,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 94,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 95,
+      "type": "host",
+      "group": 2
+    },
+    {
+      "id": 24,
+      "type": "router",
+      "group": 3,
+      "level": 1
+    },
+    {
+      "id": 96,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 97,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 98,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 99,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 25,
+      "type": "router",
+      "group": 3,
+      "level": 1
+    },
+    {
+      "id": 100,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 101,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 102,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 103,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 26,
+      "type": "router",
+      "group": 3,
+      "level": 1
+    },
+    {
+      "id": 104,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 105,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 106,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 107,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 27,
+      "type": "router",
+      "group": 3,
+      "level": 1
+    },
+    {
+      "id": 108,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 109,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 110,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 111,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 28,
+      "type": "router",
+      "group": 3,
+      "level": 1
+    },
+    {
+      "id": 112,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 113,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 114,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 115,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 29,
+      "type": "router",
+      "group": 3,
+      "level": 1
+    },
+    {
+      "id": 116,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 117,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 118,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 119,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 30,
+      "type": "router",
+      "group": 3,
+      "level": 1
+    },
+    {
+      "id": 120,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 121,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 122,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 123,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 31,
+      "type": "router",
+      "group": 3,
+      "level": 1
+    },
+    {
+      "id": 124,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 125,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 126,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 127,
+      "type": "host",
+      "group": 3
+    },
+    {
+      "id": 32,
+      "type": "router",
+      "group": 4,
+      "level": 1
+    },
+    {
+      "id": 128,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 129,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 130,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 131,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 33,
+      "type": "router",
+      "group": 4,
+      "level": 1
+    },
+    {
+      "id": 132,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 133,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 134,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 135,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 34,
+      "type": "router",
+      "group": 4,
+      "level": 1
+    },
+    {
+      "id": 136,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 137,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 138,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 139,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 35,
+      "type": "router",
+      "group": 4,
+      "level": 1
+    },
+    {
+      "id": 140,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 141,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 142,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 143,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 36,
+      "type": "router",
+      "group": 4,
+      "level": 1
+    },
+    {
+      "id": 144,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 145,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 146,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 147,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 37,
+      "type": "router",
+      "group": 4,
+      "level": 1
+    },
+    {
+      "id": 148,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 149,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 150,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 151,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 38,
+      "type": "router",
+      "group": 4,
+      "level": 1
+    },
+    {
+      "id": 152,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 153,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 154,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 155,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 39,
+      "type": "router",
+      "group": 4,
+      "level": 1
+    },
+    {
+      "id": 156,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 157,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 158,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 159,
+      "type": "host",
+      "group": 4
+    },
+    {
+      "id": 40,
+      "type": "router",
+      "group": 5,
+      "level": 1
+    },
+    {
+      "id": 160,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 161,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 162,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 163,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 41,
+      "type": "router",
+      "group": 5,
+      "level": 1
+    },
+    {
+      "id": 164,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 165,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 166,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 167,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 42,
+      "type": "router",
+      "group": 5,
+      "level": 1
+    },
+    {
+      "id": 168,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 169,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 170,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 171,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 43,
+      "type": "router",
+      "group": 5,
+      "level": 1
+    },
+    {
+      "id": 172,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 173,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 174,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 175,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 44,
+      "type": "router",
+      "group": 5,
+      "level": 1
+    },
+    {
+      "id": 176,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 177,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 178,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 179,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 45,
+      "type": "router",
+      "group": 5,
+      "level": 1
+    },
+    {
+      "id": 180,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 181,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 182,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 183,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 46,
+      "type": "router",
+      "group": 5,
+      "level": 1
+    },
+    {
+      "id": 184,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 185,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 186,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 187,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 47,
+      "type": "router",
+      "group": 5,
+      "level": 1
+    },
+    {
+      "id": 188,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 189,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 190,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 191,
+      "type": "host",
+      "group": 5
+    },
+    {
+      "id": 48,
+      "type": "router",
+      "group": 6,
+      "level": 1
+    },
+    {
+      "id": 192,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 193,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 194,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 195,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 49,
+      "type": "router",
+      "group": 6,
+      "level": 1
+    },
+    {
+      "id": 196,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 197,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 198,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 199,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 50,
+      "type": "router",
+      "group": 6,
+      "level": 1
+    },
+    {
+      "id": 200,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 201,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 202,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 203,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 51,
+      "type": "router",
+      "group": 6,
+      "level": 1
+    },
+    {
+      "id": 204,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 205,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 206,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 207,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 52,
+      "type": "router",
+      "group": 6,
+      "level": 1
+    },
+    {
+      "id": 208,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 209,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 210,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 211,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 53,
+      "type": "router",
+      "group": 6,
+      "level": 1
+    },
+    {
+      "id": 212,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 213,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 214,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 215,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 54,
+      "type": "router",
+      "group": 6,
+      "level": 1
+    },
+    {
+      "id": 216,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 217,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 218,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 219,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 55,
+      "type": "router",
+      "group": 6,
+      "level": 1
+    },
+    {
+      "id": 220,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 221,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 222,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 223,
+      "type": "host",
+      "group": 6
+    },
+    {
+      "id": 56,
+      "type": "router",
+      "group": 7,
+      "level": 1
+    },
+    {
+      "id": 224,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 225,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 226,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 227,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 57,
+      "type": "router",
+      "group": 7,
+      "level": 1
+    },
+    {
+      "id": 228,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 229,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 230,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 231,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 58,
+      "type": "router",
+      "group": 7,
+      "level": 1
+    },
+    {
+      "id": 232,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 233,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 234,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 235,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 59,
+      "type": "router",
+      "group": 7,
+      "level": 1
+    },
+    {
+      "id": 236,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 237,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 238,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 239,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 60,
+      "type": "router",
+      "group": 7,
+      "level": 1
+    },
+    {
+      "id": 240,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 241,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 242,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 243,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 61,
+      "type": "router",
+      "group": 7,
+      "level": 1
+    },
+    {
+      "id": 244,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 245,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 246,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 247,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 62,
+      "type": "router",
+      "group": 7,
+      "level": 1
+    },
+    {
+      "id": 248,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 249,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 250,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 251,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 63,
+      "type": "router",
+      "group": 7,
+      "level": 1
+    },
+    {
+      "id": 252,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 253,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 254,
+      "type": "host",
+      "group": 7
+    },
+    {
+      "id": 255,
+      "type": "host",
+      "group": 7
+    }
+  ],
+  "edges": [
+    {
+      "source": "r_0_0",
+      "target": "n_0_0_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_0",
+      "target": "n_0_0_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_0",
+      "target": "n_0_0_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_0",
+      "target": "n_0_0_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_0",
+      "target": "r_0_1",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_0",
+      "target": "r_0_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_0",
+      "target": "r_0_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_0",
+      "target": "r_0_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_0",
+      "target": "r_0_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_0",
+      "target": "r_0_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_0",
+      "target": "r_0_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_1",
+      "target": "n_0_1_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_1",
+      "target": "n_0_1_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_1",
+      "target": "n_0_1_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_1",
+      "target": "n_0_1_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_1",
+      "target": "r_0_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_1",
+      "target": "r_0_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_1",
+      "target": "r_0_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_1",
+      "target": "r_0_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_1",
+      "target": "r_0_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_1",
+      "target": "r_0_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_1",
+      "target": "r_1_0",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_0_2",
+      "target": "n_0_2_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_2",
+      "target": "n_0_2_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_2",
+      "target": "n_0_2_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_2",
+      "target": "n_0_2_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_2",
+      "target": "r_0_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_2",
+      "target": "r_0_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_2",
+      "target": "r_0_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_2",
+      "target": "r_0_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_2",
+      "target": "r_0_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_2",
+      "target": "r_2_0",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_0_3",
+      "target": "n_0_3_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_3",
+      "target": "n_0_3_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_3",
+      "target": "n_0_3_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_3",
+      "target": "n_0_3_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_3",
+      "target": "r_0_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_3",
+      "target": "r_0_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_3",
+      "target": "r_0_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_3",
+      "target": "r_0_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_3",
+      "target": "r_3_0",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_0_4",
+      "target": "n_0_4_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_4",
+      "target": "n_0_4_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_4",
+      "target": "n_0_4_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_4",
+      "target": "n_0_4_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_4",
+      "target": "r_0_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_4",
+      "target": "r_0_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_4",
+      "target": "r_0_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_4",
+      "target": "r_4_0",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_0_5",
+      "target": "n_0_5_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_5",
+      "target": "n_0_5_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_5",
+      "target": "n_0_5_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_5",
+      "target": "n_0_5_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_5",
+      "target": "r_0_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_5",
+      "target": "r_0_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_5",
+      "target": "r_5_0",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_0_6",
+      "target": "n_0_6_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_6",
+      "target": "n_0_6_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_6",
+      "target": "n_0_6_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_6",
+      "target": "n_0_6_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_6",
+      "target": "r_0_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_6",
+      "target": "r_6_0",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_0_7",
+      "target": "n_0_7_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_7",
+      "target": "n_0_7_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_7",
+      "target": "n_0_7_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_7",
+      "target": "n_0_7_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_0_7",
+      "target": "r_7_0",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_1_0",
+      "target": "n_1_0_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_0",
+      "target": "n_1_0_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_0",
+      "target": "n_1_0_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_0",
+      "target": "n_1_0_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_0",
+      "target": "r_1_1",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_0",
+      "target": "r_1_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_0",
+      "target": "r_1_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_0",
+      "target": "r_1_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_0",
+      "target": "r_1_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_0",
+      "target": "r_1_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_0",
+      "target": "r_1_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_1",
+      "target": "n_1_1_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_1",
+      "target": "n_1_1_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_1",
+      "target": "n_1_1_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_1",
+      "target": "n_1_1_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_1",
+      "target": "r_1_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_1",
+      "target": "r_1_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_1",
+      "target": "r_1_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_1",
+      "target": "r_1_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_1",
+      "target": "r_1_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_1",
+      "target": "r_1_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_2",
+      "target": "n_1_2_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_2",
+      "target": "n_1_2_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_2",
+      "target": "n_1_2_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_2",
+      "target": "n_1_2_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_2",
+      "target": "r_1_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_2",
+      "target": "r_1_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_2",
+      "target": "r_1_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_2",
+      "target": "r_1_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_2",
+      "target": "r_1_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_2",
+      "target": "r_2_1",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_1_3",
+      "target": "n_1_3_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_3",
+      "target": "n_1_3_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_3",
+      "target": "n_1_3_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_3",
+      "target": "n_1_3_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_3",
+      "target": "r_1_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_3",
+      "target": "r_1_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_3",
+      "target": "r_1_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_3",
+      "target": "r_1_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_3",
+      "target": "r_3_1",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_1_4",
+      "target": "n_1_4_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_4",
+      "target": "n_1_4_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_4",
+      "target": "n_1_4_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_4",
+      "target": "n_1_4_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_4",
+      "target": "r_1_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_4",
+      "target": "r_1_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_4",
+      "target": "r_1_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_4",
+      "target": "r_4_1",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_1_5",
+      "target": "n_1_5_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_5",
+      "target": "n_1_5_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_5",
+      "target": "n_1_5_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_5",
+      "target": "n_1_5_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_5",
+      "target": "r_1_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_5",
+      "target": "r_1_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_5",
+      "target": "r_5_1",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_1_6",
+      "target": "n_1_6_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_6",
+      "target": "n_1_6_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_6",
+      "target": "n_1_6_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_6",
+      "target": "n_1_6_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_6",
+      "target": "r_1_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_6",
+      "target": "r_6_1",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_1_7",
+      "target": "n_1_7_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_7",
+      "target": "n_1_7_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_7",
+      "target": "n_1_7_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_7",
+      "target": "n_1_7_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_1_7",
+      "target": "r_7_1",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_2_0",
+      "target": "n_2_0_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_0",
+      "target": "n_2_0_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_0",
+      "target": "n_2_0_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_0",
+      "target": "n_2_0_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_0",
+      "target": "r_2_1",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_0",
+      "target": "r_2_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_0",
+      "target": "r_2_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_0",
+      "target": "r_2_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_0",
+      "target": "r_2_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_0",
+      "target": "r_2_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_0",
+      "target": "r_2_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_1",
+      "target": "n_2_1_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_1",
+      "target": "n_2_1_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_1",
+      "target": "n_2_1_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_1",
+      "target": "n_2_1_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_1",
+      "target": "r_2_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_1",
+      "target": "r_2_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_1",
+      "target": "r_2_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_1",
+      "target": "r_2_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_1",
+      "target": "r_2_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_1",
+      "target": "r_2_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_2",
+      "target": "n_2_2_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_2",
+      "target": "n_2_2_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_2",
+      "target": "n_2_2_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_2",
+      "target": "n_2_2_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_2",
+      "target": "r_2_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_2",
+      "target": "r_2_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_2",
+      "target": "r_2_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_2",
+      "target": "r_2_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_2",
+      "target": "r_2_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_3",
+      "target": "n_2_3_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_3",
+      "target": "n_2_3_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_3",
+      "target": "n_2_3_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_3",
+      "target": "n_2_3_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_3",
+      "target": "r_2_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_3",
+      "target": "r_2_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_3",
+      "target": "r_2_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_3",
+      "target": "r_2_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_3",
+      "target": "r_3_2",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_2_4",
+      "target": "n_2_4_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_4",
+      "target": "n_2_4_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_4",
+      "target": "n_2_4_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_4",
+      "target": "n_2_4_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_4",
+      "target": "r_2_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_4",
+      "target": "r_2_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_4",
+      "target": "r_2_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_4",
+      "target": "r_4_2",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_2_5",
+      "target": "n_2_5_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_5",
+      "target": "n_2_5_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_5",
+      "target": "n_2_5_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_5",
+      "target": "n_2_5_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_5",
+      "target": "r_2_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_5",
+      "target": "r_2_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_5",
+      "target": "r_5_2",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_2_6",
+      "target": "n_2_6_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_6",
+      "target": "n_2_6_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_6",
+      "target": "n_2_6_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_6",
+      "target": "n_2_6_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_6",
+      "target": "r_2_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_6",
+      "target": "r_6_2",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_2_7",
+      "target": "n_2_7_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_7",
+      "target": "n_2_7_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_7",
+      "target": "n_2_7_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_7",
+      "target": "n_2_7_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_2_7",
+      "target": "r_7_2",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_3_0",
+      "target": "n_3_0_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_0",
+      "target": "n_3_0_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_0",
+      "target": "n_3_0_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_0",
+      "target": "n_3_0_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_0",
+      "target": "r_3_1",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_0",
+      "target": "r_3_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_0",
+      "target": "r_3_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_0",
+      "target": "r_3_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_0",
+      "target": "r_3_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_0",
+      "target": "r_3_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_0",
+      "target": "r_3_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_1",
+      "target": "n_3_1_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_1",
+      "target": "n_3_1_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_1",
+      "target": "n_3_1_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_1",
+      "target": "n_3_1_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_1",
+      "target": "r_3_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_1",
+      "target": "r_3_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_1",
+      "target": "r_3_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_1",
+      "target": "r_3_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_1",
+      "target": "r_3_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_1",
+      "target": "r_3_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_2",
+      "target": "n_3_2_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_2",
+      "target": "n_3_2_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_2",
+      "target": "n_3_2_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_2",
+      "target": "n_3_2_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_2",
+      "target": "r_3_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_2",
+      "target": "r_3_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_2",
+      "target": "r_3_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_2",
+      "target": "r_3_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_2",
+      "target": "r_3_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_3",
+      "target": "n_3_3_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_3",
+      "target": "n_3_3_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_3",
+      "target": "n_3_3_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_3",
+      "target": "n_3_3_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_3",
+      "target": "r_3_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_3",
+      "target": "r_3_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_3",
+      "target": "r_3_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_3",
+      "target": "r_3_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_4",
+      "target": "n_3_4_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_4",
+      "target": "n_3_4_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_4",
+      "target": "n_3_4_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_4",
+      "target": "n_3_4_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_4",
+      "target": "r_3_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_4",
+      "target": "r_3_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_4",
+      "target": "r_3_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_4",
+      "target": "r_4_3",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_3_5",
+      "target": "n_3_5_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_5",
+      "target": "n_3_5_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_5",
+      "target": "n_3_5_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_5",
+      "target": "n_3_5_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_5",
+      "target": "r_3_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_5",
+      "target": "r_3_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_5",
+      "target": "r_5_3",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_3_6",
+      "target": "n_3_6_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_6",
+      "target": "n_3_6_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_6",
+      "target": "n_3_6_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_6",
+      "target": "n_3_6_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_6",
+      "target": "r_3_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_6",
+      "target": "r_6_3",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_3_7",
+      "target": "n_3_7_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_7",
+      "target": "n_3_7_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_7",
+      "target": "n_3_7_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_7",
+      "target": "n_3_7_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_3_7",
+      "target": "r_7_3",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_4_0",
+      "target": "n_4_0_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_0",
+      "target": "n_4_0_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_0",
+      "target": "n_4_0_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_0",
+      "target": "n_4_0_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_0",
+      "target": "r_4_1",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_0",
+      "target": "r_4_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_0",
+      "target": "r_4_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_0",
+      "target": "r_4_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_0",
+      "target": "r_4_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_0",
+      "target": "r_4_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_0",
+      "target": "r_4_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_1",
+      "target": "n_4_1_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_1",
+      "target": "n_4_1_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_1",
+      "target": "n_4_1_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_1",
+      "target": "n_4_1_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_1",
+      "target": "r_4_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_1",
+      "target": "r_4_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_1",
+      "target": "r_4_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_1",
+      "target": "r_4_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_1",
+      "target": "r_4_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_1",
+      "target": "r_4_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_2",
+      "target": "n_4_2_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_2",
+      "target": "n_4_2_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_2",
+      "target": "n_4_2_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_2",
+      "target": "n_4_2_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_2",
+      "target": "r_4_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_2",
+      "target": "r_4_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_2",
+      "target": "r_4_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_2",
+      "target": "r_4_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_2",
+      "target": "r_4_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_3",
+      "target": "n_4_3_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_3",
+      "target": "n_4_3_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_3",
+      "target": "n_4_3_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_3",
+      "target": "n_4_3_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_3",
+      "target": "r_4_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_3",
+      "target": "r_4_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_3",
+      "target": "r_4_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_3",
+      "target": "r_4_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_4",
+      "target": "n_4_4_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_4",
+      "target": "n_4_4_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_4",
+      "target": "n_4_4_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_4",
+      "target": "n_4_4_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_4",
+      "target": "r_4_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_4",
+      "target": "r_4_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_4",
+      "target": "r_4_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_5",
+      "target": "n_4_5_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_5",
+      "target": "n_4_5_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_5",
+      "target": "n_4_5_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_5",
+      "target": "n_4_5_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_5",
+      "target": "r_4_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_5",
+      "target": "r_4_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_5",
+      "target": "r_5_4",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_4_6",
+      "target": "n_4_6_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_6",
+      "target": "n_4_6_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_6",
+      "target": "n_4_6_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_6",
+      "target": "n_4_6_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_6",
+      "target": "r_4_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_6",
+      "target": "r_6_4",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_4_7",
+      "target": "n_4_7_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_7",
+      "target": "n_4_7_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_7",
+      "target": "n_4_7_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_7",
+      "target": "n_4_7_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_4_7",
+      "target": "r_7_4",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_5_0",
+      "target": "n_5_0_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_0",
+      "target": "n_5_0_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_0",
+      "target": "n_5_0_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_0",
+      "target": "n_5_0_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_0",
+      "target": "r_5_1",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_0",
+      "target": "r_5_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_0",
+      "target": "r_5_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_0",
+      "target": "r_5_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_0",
+      "target": "r_5_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_0",
+      "target": "r_5_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_0",
+      "target": "r_5_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_1",
+      "target": "n_5_1_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_1",
+      "target": "n_5_1_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_1",
+      "target": "n_5_1_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_1",
+      "target": "n_5_1_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_1",
+      "target": "r_5_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_1",
+      "target": "r_5_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_1",
+      "target": "r_5_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_1",
+      "target": "r_5_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_1",
+      "target": "r_5_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_1",
+      "target": "r_5_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_2",
+      "target": "n_5_2_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_2",
+      "target": "n_5_2_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_2",
+      "target": "n_5_2_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_2",
+      "target": "n_5_2_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_2",
+      "target": "r_5_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_2",
+      "target": "r_5_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_2",
+      "target": "r_5_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_2",
+      "target": "r_5_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_2",
+      "target": "r_5_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_3",
+      "target": "n_5_3_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_3",
+      "target": "n_5_3_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_3",
+      "target": "n_5_3_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_3",
+      "target": "n_5_3_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_3",
+      "target": "r_5_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_3",
+      "target": "r_5_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_3",
+      "target": "r_5_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_3",
+      "target": "r_5_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_4",
+      "target": "n_5_4_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_4",
+      "target": "n_5_4_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_4",
+      "target": "n_5_4_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_4",
+      "target": "n_5_4_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_4",
+      "target": "r_5_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_4",
+      "target": "r_5_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_4",
+      "target": "r_5_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_5",
+      "target": "n_5_5_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_5",
+      "target": "n_5_5_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_5",
+      "target": "n_5_5_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_5",
+      "target": "n_5_5_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_5",
+      "target": "r_5_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_5",
+      "target": "r_5_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_6",
+      "target": "n_5_6_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_6",
+      "target": "n_5_6_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_6",
+      "target": "n_5_6_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_6",
+      "target": "n_5_6_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_6",
+      "target": "r_5_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_6",
+      "target": "r_6_5",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_5_7",
+      "target": "n_5_7_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_7",
+      "target": "n_5_7_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_7",
+      "target": "n_5_7_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_7",
+      "target": "n_5_7_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_5_7",
+      "target": "r_7_5",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_6_0",
+      "target": "n_6_0_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_0",
+      "target": "n_6_0_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_0",
+      "target": "n_6_0_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_0",
+      "target": "n_6_0_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_0",
+      "target": "r_6_1",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_0",
+      "target": "r_6_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_0",
+      "target": "r_6_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_0",
+      "target": "r_6_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_0",
+      "target": "r_6_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_0",
+      "target": "r_6_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_0",
+      "target": "r_6_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_1",
+      "target": "n_6_1_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_1",
+      "target": "n_6_1_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_1",
+      "target": "n_6_1_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_1",
+      "target": "n_6_1_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_1",
+      "target": "r_6_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_1",
+      "target": "r_6_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_1",
+      "target": "r_6_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_1",
+      "target": "r_6_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_1",
+      "target": "r_6_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_1",
+      "target": "r_6_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_2",
+      "target": "n_6_2_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_2",
+      "target": "n_6_2_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_2",
+      "target": "n_6_2_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_2",
+      "target": "n_6_2_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_2",
+      "target": "r_6_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_2",
+      "target": "r_6_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_2",
+      "target": "r_6_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_2",
+      "target": "r_6_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_2",
+      "target": "r_6_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_3",
+      "target": "n_6_3_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_3",
+      "target": "n_6_3_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_3",
+      "target": "n_6_3_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_3",
+      "target": "n_6_3_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_3",
+      "target": "r_6_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_3",
+      "target": "r_6_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_3",
+      "target": "r_6_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_3",
+      "target": "r_6_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_4",
+      "target": "n_6_4_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_4",
+      "target": "n_6_4_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_4",
+      "target": "n_6_4_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_4",
+      "target": "n_6_4_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_4",
+      "target": "r_6_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_4",
+      "target": "r_6_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_4",
+      "target": "r_6_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_5",
+      "target": "n_6_5_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_5",
+      "target": "n_6_5_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_5",
+      "target": "n_6_5_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_5",
+      "target": "n_6_5_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_5",
+      "target": "r_6_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_5",
+      "target": "r_6_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_6",
+      "target": "n_6_6_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_6",
+      "target": "n_6_6_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_6",
+      "target": "n_6_6_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_6",
+      "target": "n_6_6_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_6",
+      "target": "r_6_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_7",
+      "target": "n_6_7_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_7",
+      "target": "n_6_7_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_7",
+      "target": "n_6_7_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_7",
+      "target": "n_6_7_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_6_7",
+      "target": "r_7_6",
+      "bandwidth_gbps": 200,
+      "latency_us": 2
+    },
+    {
+      "source": "r_7_0",
+      "target": "n_7_0_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_0",
+      "target": "n_7_0_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_0",
+      "target": "n_7_0_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_0",
+      "target": "n_7_0_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_0",
+      "target": "r_7_1",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_0",
+      "target": "r_7_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_0",
+      "target": "r_7_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_0",
+      "target": "r_7_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_0",
+      "target": "r_7_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_0",
+      "target": "r_7_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_0",
+      "target": "r_7_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_1",
+      "target": "n_7_1_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_1",
+      "target": "n_7_1_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_1",
+      "target": "n_7_1_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_1",
+      "target": "n_7_1_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_1",
+      "target": "r_7_2",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_1",
+      "target": "r_7_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_1",
+      "target": "r_7_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_1",
+      "target": "r_7_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_1",
+      "target": "r_7_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_1",
+      "target": "r_7_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_2",
+      "target": "n_7_2_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_2",
+      "target": "n_7_2_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_2",
+      "target": "n_7_2_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_2",
+      "target": "n_7_2_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_2",
+      "target": "r_7_3",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_2",
+      "target": "r_7_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_2",
+      "target": "r_7_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_2",
+      "target": "r_7_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_2",
+      "target": "r_7_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_3",
+      "target": "n_7_3_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_3",
+      "target": "n_7_3_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_3",
+      "target": "n_7_3_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_3",
+      "target": "n_7_3_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_3",
+      "target": "r_7_4",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_3",
+      "target": "r_7_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_3",
+      "target": "r_7_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_3",
+      "target": "r_7_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_4",
+      "target": "n_7_4_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_4",
+      "target": "n_7_4_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_4",
+      "target": "n_7_4_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_4",
+      "target": "n_7_4_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_4",
+      "target": "r_7_5",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_4",
+      "target": "r_7_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_4",
+      "target": "r_7_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_5",
+      "target": "n_7_5_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_5",
+      "target": "n_7_5_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_5",
+      "target": "n_7_5_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_5",
+      "target": "n_7_5_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_5",
+      "target": "r_7_6",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_5",
+      "target": "r_7_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_6",
+      "target": "n_7_6_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_6",
+      "target": "n_7_6_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_6",
+      "target": "n_7_6_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_6",
+      "target": "n_7_6_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_6",
+      "target": "r_7_7",
+      "bandwidth_gbps": 100,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_7",
+      "target": "n_7_7_0",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_7",
+      "target": "n_7_7_1",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_7",
+      "target": "n_7_7_2",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    },
+    {
+      "source": "r_7_7",
+      "target": "n_7_7_3",
+      "bandwidth_gbps": 25,
+      "latency_us": 0.5
+    }
+  ],
+  "diameter": 5,
+  "avg_shortest_path": 4.12
+}

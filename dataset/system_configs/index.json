@@ -1,0 +1,17 @@
+{
+  "small": {
+    "n_qpus": 4,
+    "n_classical_nodes": 8,
+    "network_type": "Fat-Tree"
+  },
+  "medium": {
+    "n_qpus": 8,
+    "n_classical_nodes": 16,
+    "network_type": "Dragonfly"
+  },
+  "large": {
+    "n_qpus": 16,
+    "n_classical_nodes": 32,
+    "network_type": "Dragonfly+"
+  }
+}

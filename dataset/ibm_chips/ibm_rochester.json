@@ -1,0 +1,6206 @@
+{
+  "name": "ibm_rochester",
+  "n_qubits": 53,
+  "basis_gates": [
+    "id",
+    "u1",
+    "u2",
+    "u3",
+    "cx"
+  ],
+  "coupling_map": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      13
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      16
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      8
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      9
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      11,
+      10
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      12,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      6
+    ],
+    [
+      13,
+      12
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      14,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      15,
+      14
+    ],
+    [
+      15,
+      18
+    ],
+    [
+      16,
+      7
+    ],
+    [
+      16,
+      19
+    ],
+    [
+      17,
+      11
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      18,
+      15
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      19,
+      16
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      20,
+      19
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      21,
+      20
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      22,
+      21
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      23,
+      17
+    ],
+    [
+      23,
+      22
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      24,
+      23
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      25,
+      24
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      25,
+      29
+    ],
+    [
+      26,
+      25
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      27,
+      18
+    ],
+    [
+      27,
+      26
+    ],
+    [
+      28,
+      21
+    ],
+    [
+      28,
+      32
+    ],
+    [
+      29,
+      25
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      31,
+      30
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      32,
+      28
+    ],
+    [
+      32,
+      31
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      33,
+      32
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      34,
+      33
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      34,
+      40
+    ],
+    [
+      35,
+      34
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      36,
+      29
+    ],
+    [
+      36,
+      35
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      37,
+      36
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      38,
+      37
+    ],
+    [
+      38,
+      41
+    ],
+    [
+      39,
+      30
+    ],
+    [
+      39,
+      42
+    ],
+    [
+      40,
+      34
+    ],
+    [
+      40,
+      46
+    ],
+    [
+      41,
+      38
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      42,
+      39
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      43,
+      42
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      44,
+      43
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      44,
+      51
+    ],
+    [
+      45,
+      44
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      46,
+      40
+    ],
+    [
+      46,
+      45
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      47,
+      46
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      48,
+      47
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      48,
+      52
+    ],
+    [
+      49,
+      48
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      50,
+      41
+    ],
+    [
+      50,
+      49
+    ],
+    [
+      51,
+      44
+    ],
+    [
+      52,
+      48
+    ]
+  ],
+  "coupling_map_undirected": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      13
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      16
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      15,
+      18
+    ],
+    [
+      16,
+      19
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      25,
+      29
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      28,
+      32
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      34,
+      40
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      38,
+      41
+    ],
+    [
+      39,
+      42
+    ],
+    [
+      40,
+      46
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      44,
+      51
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      48,
+      52
+    ],
+    [
+      49,
+      50
+    ]
+  ],
+  "qubit_properties": [
+    {
+      "qubit": 0,
+      "t1_us": 47.202589945085634,
+      "t2_us": 71.97886891709165,
+      "freq_ghz": 4.923661217688461,
+      "readout_error": 0.16937500000000005,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 1,
+      "t1_us": 40.46418170325459,
+      "t2_us": 33.130310415786674,
+      "freq_ghz": 5.077503517033771,
+      "readout_error": 0.20750000000000002,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 2,
+      "t1_us": 64.50730126989893,
+      "t2_us": 98.79334801961676,
+      "freq_ghz": 4.999077215027277,
+      "readout_error": 0.1875,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 3,
+      "t1_us": 38.16939707163209,
+      "t2_us": 75.44474408583642,
+      "freq_ghz": 5.0448671512898065,
+      "readout_error": 0.13250000000000006,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 4,
+      "t1_us": 54.503583089340815,
+      "t2_us": 59.005832344025976,
+      "freq_ghz": 4.935480742789688,
+      "readout_error": 0.038124999999999964,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 5,
+      "t1_us": 48.13822616761087,
+      "t2_us": 68.64078670221825,
+      "freq_ghz": 5.046933144700813,
+      "readout_error": 0.26812499999999995,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 6,
+      "t1_us": 57.94008139817533,
+      "t2_us": 57.80612887795059,
+      "freq_ghz": 5.047781509217394,
+      "readout_error": 0.06374999999999997,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 7,
+      "t1_us": 57.31281980767124,
+      "t2_us": 49.65310738547725,
+      "freq_ghz": 4.9337576315898,
+      "readout_error": 0.19562500000000005,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 8,
+      "t1_us": 47.47721018989265,
+      "t2_us": 43.68864068098156,
+      "freq_ghz": 5.031421594311951,
+      "readout_error": 0.09375,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 9,
+      "t1_us": 29.625015668573482,
+      "t2_us": 28.412535042607946,
+      "freq_ghz": 4.974201446667245,
+      "readout_error": 0.07250000000000001,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 10,
+      "t1_us": 55.58604262096671,
+      "t2_us": 80.46524053280096,
+      "freq_ghz": 5.064031733276138,
+      "readout_error": 0.06000000000000005,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 11,
+      "t1_us": 61.04231113140698,
+      "t2_us": 48.69816724022607,
+      "freq_ghz": 4.926982614617065,
+      "readout_error": 0.09375,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 12,
+      "t1_us": 54.696657664691465,
+      "t2_us": 56.32228783903638,
+      "freq_ghz": 5.047540798320301,
+      "readout_error": 0.14500000000000002,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 13,
+      "t1_us": 64.73976874689062,
+      "t2_us": 111.71486705615203,
+      "freq_ghz": 4.949477949187566,
+      "readout_error": 0.31437500000000007,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 14,
+      "t1_us": 55.14739991455927,
+      "t2_us": 67.37811968733166,
+      "freq_ghz": 5.067659354143794,
+      "readout_error": 0.16249999999999998,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 15,
+      "t1_us": 43.86001218642491,
+      "t2_us": 24.65509607392922,
+      "freq_ghz": 4.874763595375023,
+      "readout_error": 0.08250000000000002,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 16,
+      "t1_us": 46.15052823281919,
+      "t2_us": 59.53302881210899,
+      "freq_ghz": 5.076354299146985,
+      "readout_error": 0.360625,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 17,
+      "t1_us": 49.820372007396195,
+      "t2_us": 11.752235451360054,
+      "freq_ghz": 4.987306053827027,
+      "readout_error": 0.06812499999999999,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 18,
+      "t1_us": 41.685279771120335,
+      "t2_us": 45.391076362901806,
+      "freq_ghz": 5.06266141812177,
+      "readout_error": 0.02937499999999993,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 19,
+      "t1_us": 50.02208552962456,
+      "t2_us": 37.78144206379514,
+      "freq_ghz": 5.019712432351334,
+      "readout_error": 0.08374999999999999,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 20,
+      "t1_us": 56.68091778204328,
+      "t2_us": 88.63880440042941,
+      "freq_ghz": 4.887041397151617,
+      "readout_error": 0.010000000000000009,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 21,
+      "t1_us": 60.14488220569877,
+      "t2_us": 39.24958562849349,
+      "freq_ghz": 5.1445663372819,
+      "readout_error": 0.25875000000000004,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 22,
+      "t1_us": 59.26876787810283,
+      "t2_us": 53.88613613314315,
+      "freq_ghz": 4.903285708350397,
+      "readout_error": 0.08374999999999999,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 23,
+      "t1_us": 48.391337644773536,
+      "t2_us": 54.379741230096606,
+      "freq_ghz": 4.95629476719842,
+      "readout_error": 0.316875,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 24,
+      "t1_us": 39.64954452452434,
+      "t2_us": 48.89202539537468,
+      "freq_ghz": 4.882351959627553,
+      "readout_error": 0.04062500000000002,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 25,
+      "t1_us": 54.003504890394694,
+      "t2_us": 49.40921316708292,
+      "freq_ghz": 4.973678061616743,
+      "readout_error": 0.16937500000000005,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 26,
+      "t1_us": 49.523377676693535,
+      "t2_us": 61.84385814293222,
+      "freq_ghz": 5.024162717681914,
+      "readout_error": 0.07062499999999994,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 27,
+      "t1_us": 40.51717325366784,
+      "t2_us": 51.897453686605466,
+      "freq_ghz": 4.985057452267384,
+      "readout_error": 0.13,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 28,
+      "t1_us": 61.47894011809409,
+      "t2_us": 66.79072000138271,
+      "freq_ghz": 5.01657229402697,
+      "readout_error": 0.16374999999999995,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 29,
+      "t1_us": 59.089510854561844,
+      "t2_us": 15.931090498040218,
+      "freq_ghz": 4.999533323191992,
+      "readout_error": 0.026249999999999996,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 30,
+      "t1_us": 14.842199608273175,
+      "t2_us": 68.46889680286327,
+      "freq_ghz": 5.114280348545791,
+      "readout_error": 0.40249999999999997,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 31,
+      "t1_us": 70.36898497532748,
+      "t2_us": 97.12996758411695,
+      "freq_ghz": 4.963943183764253,
+      "readout_error": 0.19062500000000004,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 32,
+      "t1_us": 44.37137916403005,
+      "t2_us": 65.01706790888701,
+      "freq_ghz": 5.154795500093995,
+      "readout_error": 0.14937500000000004,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 33,
+      "t1_us": 39.44738124590463,
+      "t2_us": 51.81263469424467,
+      "freq_ghz": 5.210712682659879,
+      "readout_error": 0.030625000000000013,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 34,
+      "t1_us": 78.81866270078712,
+      "t2_us": 35.81874201998917,
+      "freq_ghz": 4.9693640576388045,
+      "readout_error": 0.03187499999999999,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 35,
+      "t1_us": 74.38685451450299,
+      "t2_us": 19.908383980442444,
+      "freq_ghz": 5.046134595808858,
+      "readout_error": 0.20999999999999996,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 36,
+      "t1_us": 51.50154292278343,
+      "t2_us": 11.927630099888837,
+      "freq_ghz": 5.025999643559382,
+      "readout_error": 0.030624999999999902,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 37,
+      "t1_us": 46.335186476582386,
+      "t2_us": 28.526969934613767,
+      "freq_ghz": 5.172580151430282,
+      "readout_error": 0.11312499999999992,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 38,
+      "t1_us": 66.4355523861355,
+      "t2_us": 26.084280899639563,
+      "freq_ghz": 4.909710816641219,
+      "readout_error": 0.20687499999999992,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 39,
+      "t1_us": 54.02675965510947,
+      "t2_us": 50.11568459842247,
+      "freq_ghz": 5.053285058631843,
+      "readout_error": 0.10375000000000001,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 40,
+      "t1_us": 43.21534543419547,
+      "t2_us": 75.1755095263917,
+      "freq_ghz": 5.058941259046496,
+      "readout_error": 0.13375000000000004,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 41,
+      "t1_us": 65.9765575613478,
+      "t2_us": 64.71148725446477,
+      "freq_ghz": 5.038069630873736,
+      "readout_error": 0.11749999999999994,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 42,
+      "t1_us": 57.42673554044682,
+      "t2_us": 97.53855102035534,
+      "freq_ghz": 4.99437295986913,
+      "readout_error": 0.05249999999999999,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 43,
+      "t1_us": 51.09317270919713,
+      "t2_us": 43.844954977216815,
+      "freq_ghz": 5.065591378986034,
+      "readout_error": 0.20937499999999998,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 44,
+      "t1_us": 57.99783574127015,
+      "t2_us": 48.74691666358674,
+      "freq_ghz": 4.976149807652934,
+      "readout_error": 0.12250000000000005,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 45,
+      "t1_us": 44.46884892560586,
+      "t2_us": 56.966617337030165,
+      "freq_ghz": 5.089138555162547,
+      "readout_error": 0.15437499999999993,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 46,
+      "t1_us": 32.47825545601552,
+      "t2_us": 43.67300486160217,
+      "freq_ghz": 5.032015364599079,
+      "readout_error": 0.24562499999999998,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 47,
+      "t1_us": 63.13365936593136,
+      "t2_us": 91.00609382098763,
+      "freq_ghz": 5.069185991279582,
+      "readout_error": 0.18500000000000005,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 48,
+      "t1_us": 48.496461996832444,
+      "t2_us": 87.1024096459676,
+      "freq_ghz": 4.9728117115326675,
+      "readout_error": 0.030000000000000027,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 49,
+      "t1_us": 45.46183003449789,
+      "t2_us": 43.52926652346807,
+      "freq_ghz": 5.0727726451135675,
+      "readout_error": 0.380625,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 50,
+      "t1_us": 38.21676283561109,
+      "t2_us": 19.780641990011468,
+      "freq_ghz": 4.959301462697539,
+      "readout_error": 0.109375,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 51,
+      "t1_us": 48.96022914093901,
+      "t2_us": 40.8019923555539,
+      "freq_ghz": 5.1292128372995425,
+      "readout_error": 0.09687500000000004,
+      "readout_length_ns": null
+    },
+    {
+      "qubit": 52,
+      "t1_us": 64.07742764678396,
+      "t2_us": 37.26161842445945,
+      "freq_ghz": 5.043554414094637,
+      "readout_error": 0.25187500000000007,
+      "readout_length_ns": null
+    }
+  ],
+  "gate_properties": [
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        0
+      ],
+      "parameters": {
+        "gate_error": 0.001143663573725473,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        0
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        0
+      ],
+      "parameters": {
+        "gate_error": 0.001143663573725473,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        0
+      ],
+      "parameters": {
+        "gate_error": 0.002286019181080956,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        1
+      ],
+      "parameters": {
+        "gate_error": 0.001303550339095072,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        1
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        1
+      ],
+      "parameters": {
+        "gate_error": 0.001303550339095072,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        1
+      ],
+      "parameters": {
+        "gate_error": 0.002605401434703447,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        2
+      ],
+      "parameters": {
+        "gate_error": 0.001844908773563192,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        2
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        2
+      ],
+      "parameters": {
+        "gate_error": 0.001844908773563192,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        2
+      ],
+      "parameters": {
+        "gate_error": 0.0036864138587436868,
+        "gate_length": 320.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        3
+      ],
+      "parameters": {
+        "gate_error": 0.005655637331881569,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        3
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        3
+      ],
+      "parameters": {
+        "gate_error": 0.005655637331881569,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        3
+      ],
+      "parameters": {
+        "gate_error": 0.011279288430133372,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        4
+      ],
+      "parameters": {
+        "gate_error": 0.0009731489995383202,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        4
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        4
+      ],
+      "parameters": {
+        "gate_error": 0.0009731489995383202,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        4
+      ],
+      "parameters": {
+        "gate_error": 0.0019453509801014013,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        5
+      ],
+      "parameters": {
+        "gate_error": 0.0013332656660733355,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        5
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        5
+      ],
+      "parameters": {
+        "gate_error": 0.0013332656660733355,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        5
+      ],
+      "parameters": {
+        "gate_error": 0.0026647537348104544,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        6
+      ],
+      "parameters": {
+        "gate_error": 0.0018369061917648533,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        6
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        6
+      ],
+      "parameters": {
+        "gate_error": 0.0018369061917648533,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        6
+      ],
+      "parameters": {
+        "gate_error": 0.003670438159172451,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        7
+      ],
+      "parameters": {
+        "gate_error": 0.000702234624248177,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        7
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        7
+      ],
+      "parameters": {
+        "gate_error": 0.000702234624248177,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        7
+      ],
+      "parameters": {
+        "gate_error": 0.0014039761150289598,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        8
+      ],
+      "parameters": {
+        "gate_error": 0.0014846538838504952,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        8
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        8
+      ],
+      "parameters": {
+        "gate_error": 0.0014846538838504952,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        8
+      ],
+      "parameters": {
+        "gate_error": 0.0029671035705460813,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        9
+      ],
+      "parameters": {
+        "gate_error": 0.0074337550954691745,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        9
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        9
+      ],
+      "parameters": {
+        "gate_error": 0.0074337550954691745,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        9
+      ],
+      "parameters": {
+        "gate_error": 0.014812249476118922,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        10
+      ],
+      "parameters": {
+        "gate_error": 0.0006738906302999892,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        10
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        10
+      ],
+      "parameters": {
+        "gate_error": 0.0006738906302999892,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        10
+      ],
+      "parameters": {
+        "gate_error": 0.00134732713201835,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        11
+      ],
+      "parameters": {
+        "gate_error": 0.0014335606504307097,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        11
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        11
+      ],
+      "parameters": {
+        "gate_error": 0.0014335606504307097,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        11
+      ],
+      "parameters": {
+        "gate_error": 0.0028650662047230435,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        12
+      ],
+      "parameters": {
+        "gate_error": 0.002635184171736915,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        12
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        12
+      ],
+      "parameters": {
+        "gate_error": 0.002635184171736915,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        12
+      ],
+      "parameters": {
+        "gate_error": 0.005263424147854856,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        13
+      ],
+      "parameters": {
+        "gate_error": 0.0015292710904191709,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        13
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        13
+      ],
+      "parameters": {
+        "gate_error": 0.0015292710904191709,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        13
+      ],
+      "parameters": {
+        "gate_error": 0.0030562035107702945,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        14
+      ],
+      "parameters": {
+        "gate_error": 0.0006757253744765213,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        14
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        14
+      ],
+      "parameters": {
+        "gate_error": 0.0006757253744765213,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        14
+      ],
+      "parameters": {
+        "gate_error": 0.0013509941441711693,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        15
+      ],
+      "parameters": {
+        "gate_error": 0.0010694013087372278,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        15
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        15
+      ],
+      "parameters": {
+        "gate_error": 0.0010694013087372278,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        15
+      ],
+      "parameters": {
+        "gate_error": 0.002137658998315306,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        16
+      ],
+      "parameters": {
+        "gate_error": 0.0007526906017468749,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        16
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        16
+      ],
+      "parameters": {
+        "gate_error": 0.0007526906017468749,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        16
+      ],
+      "parameters": {
+        "gate_error": 0.0015048146603517942,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        17
+      ],
+      "parameters": {
+        "gate_error": 0.0022399429875106236,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        17
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        17
+      ],
+      "parameters": {
+        "gate_error": 0.0022399429875106236,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        17
+      ],
+      "parameters": {
+        "gate_error": 0.0044748686304340035,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        18
+      ],
+      "parameters": {
+        "gate_error": 0.0009220302158088334,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        18
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        18
+      ],
+      "parameters": {
+        "gate_error": 0.0009220302158088334,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        18
+      ],
+      "parameters": {
+        "gate_error": 0.0018432102918988225,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        19
+      ],
+      "parameters": {
+        "gate_error": 0.001033216510599233,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        19
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        19
+      ],
+      "parameters": {
+        "gate_error": 0.001033216510599233,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        19
+      ],
+      "parameters": {
+        "gate_error": 0.00206536548484082,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        20
+      ],
+      "parameters": {
+        "gate_error": 0.0008107661911141983,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        20
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        20
+      ],
+      "parameters": {
+        "gate_error": 0.0008107661911141983,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        20
+      ],
+      "parameters": {
+        "gate_error": 0.0016208750404117511,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        21
+      ],
+      "parameters": {
+        "gate_error": 0.0053080702956945225,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        21
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        21
+      ],
+      "parameters": {
+        "gate_error": 0.0053080702956945225,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        21
+      ],
+      "parameters": {
+        "gate_error": 0.010587964981124909,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        22
+      ],
+      "parameters": {
+        "gate_error": 0.0008421024863951021,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        22
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        22
+      ],
+      "parameters": {
+        "gate_error": 0.0008421024863951021,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        22
+      ],
+      "parameters": {
+        "gate_error": 0.001683495836192761,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        23
+      ],
+      "parameters": {
+        "gate_error": 0.0017780060841612322,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        23
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        23
+      ],
+      "parameters": {
+        "gate_error": 0.0017780060841612322,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        23
+      ],
+      "parameters": {
+        "gate_error": 0.0035528508626871957,
+        "gate_length": 320.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        24
+      ],
+      "parameters": {
+        "gate_error": 0.002270907017930701,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        24
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        24
+      ],
+      "parameters": {
+        "gate_error": 0.002270907017930701,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        24
+      ],
+      "parameters": {
+        "gate_error": 0.004536657017177426,
+        "gate_length": 320.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        25
+      ],
+      "parameters": {
+        "gate_error": 0.0009839641699146973,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        25
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        25
+      ],
+      "parameters": {
+        "gate_error": 0.0009839641699146973,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        25
+      ],
+      "parameters": {
+        "gate_error": 0.0019669601543418347,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        26
+      ],
+      "parameters": {
+        "gate_error": 0.0011014452068972558,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        26
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        26
+      ],
+      "parameters": {
+        "gate_error": 0.0011014452068972558,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        26
+      ],
+      "parameters": {
+        "gate_error": 0.0022016772322507316,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        27
+      ],
+      "parameters": {
+        "gate_error": 0.0018239224672301768,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        27
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        27
+      ],
+      "parameters": {
+        "gate_error": 0.0018239224672301768,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        27
+      ],
+      "parameters": {
+        "gate_error": 0.0036445182412938593,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        28
+      ],
+      "parameters": {
+        "gate_error": 0.0010897739819605845,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        28
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        28
+      ],
+      "parameters": {
+        "gate_error": 0.0010897739819605845,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        28
+      ],
+      "parameters": {
+        "gate_error": 0.0021783603565894705,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        29
+      ],
+      "parameters": {
+        "gate_error": 0.001737409573874249,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        29
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        29
+      ],
+      "parameters": {
+        "gate_error": 0.001737409573874249,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        29
+      ],
+      "parameters": {
+        "gate_error": 0.0034718005557211606,
+        "gate_length": 320.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        30
+      ],
+      "parameters": {
+        "gate_error": 0.003201183279347819,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        30
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        30
+      ],
+      "parameters": {
+        "gate_error": 0.003201183279347819,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        30
+      ],
+      "parameters": {
+        "gate_error": 0.006392118984307693,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        31
+      ],
+      "parameters": {
+        "gate_error": 0.000899496846042791,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        31
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        31
+      ],
+      "parameters": {
+        "gate_error": 0.000899496846042791,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        31
+      ],
+      "parameters": {
+        "gate_error": 0.0017981845975094668,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        32
+      ],
+      "parameters": {
+        "gate_error": 0.003031724504059752,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        32
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        32
+      ],
+      "parameters": {
+        "gate_error": 0.003031724504059752,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        32
+      ],
+      "parameters": {
+        "gate_error": 0.006054257654650952,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        33
+      ],
+      "parameters": {
+        "gate_error": 0.0011724058253580472,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        33
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        33
+      ],
+      "parameters": {
+        "gate_error": 0.0011724058253580472,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        33
+      ],
+      "parameters": {
+        "gate_error": 0.0023434371152967204,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        34
+      ],
+      "parameters": {
+        "gate_error": 0.0011467361113239871,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        34
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        34
+      ],
+      "parameters": {
+        "gate_error": 0.0011467361113239871,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        34
+      ],
+      "parameters": {
+        "gate_error": 0.0022921572189389394,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        35
+      ],
+      "parameters": {
+        "gate_error": 0.002257035824466236,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        35
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        35
+      ],
+      "parameters": {
+        "gate_error": 0.002257035824466236,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        35
+      ],
+      "parameters": {
+        "gate_error": 0.004508977438219541,
+        "gate_length": 320.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        36
+      ],
+      "parameters": {
+        "gate_error": 0.004740440060984452,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        36
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        36
+      ],
+      "parameters": {
+        "gate_error": 0.004740440060984452,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        36
+      ],
+      "parameters": {
+        "gate_error": 0.009458408349997227,
+        "gate_length": 320.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        37
+      ],
+      "parameters": {
+        "gate_error": 0.0010990728173593256,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        37
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        37
+      ],
+      "parameters": {
+        "gate_error": 0.0010990728173593256,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        37
+      ],
+      "parameters": {
+        "gate_error": 0.0021969376736608037,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        38
+      ],
+      "parameters": {
+        "gate_error": 0.0007875785772571975,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        38
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        38
+      ],
+      "parameters": {
+        "gate_error": 0.0007875785772571975,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        38
+      ],
+      "parameters": {
+        "gate_error": 0.001574536874499044,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        39
+      ],
+      "parameters": {
+        "gate_error": 0.0008177218557642862,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        39
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        39
+      ],
+      "parameters": {
+        "gate_error": 0.0008177218557642862,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        39
+      ],
+      "parameters": {
+        "gate_error": 0.0016347750424953178,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        40
+      ],
+      "parameters": {
+        "gate_error": 0.001685051900162271,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        40
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        40
+      ],
+      "parameters": {
+        "gate_error": 0.001685051900162271,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        40
+      ],
+      "parameters": {
+        "gate_error": 0.003367264400418457,
+        "gate_length": 320.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        41
+      ],
+      "parameters": {
+        "gate_error": 0.0016994901495532844,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        41
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        41
+      ],
+      "parameters": {
+        "gate_error": 0.0016994901495532844,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        41
+      ],
+      "parameters": {
+        "gate_error": 0.0033960920323381494,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        42
+      ],
+      "parameters": {
+        "gate_error": 0.0006639148555677155,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        42
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        42
+      ],
+      "parameters": {
+        "gate_error": 0.0006639148555677155,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        42
+      ],
+      "parameters": {
+        "gate_error": 0.0013273889281999462,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        43
+      ],
+      "parameters": {
+        "gate_error": 0.0010643499951998314,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        43
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        43
+      ],
+      "parameters": {
+        "gate_error": 0.0010643499951998314,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        43
+      ],
+      "parameters": {
+        "gate_error": 0.002127567149487475,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        44
+      ],
+      "parameters": {
+        "gate_error": 0.001130239579754555,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        44
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        44
+      ],
+      "parameters": {
+        "gate_error": 0.001130239579754555,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        44
+      ],
+      "parameters": {
+        "gate_error": 0.0022592017180014246,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        45
+      ],
+      "parameters": {
+        "gate_error": 0.0010026148930836754,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        45
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        45
+      ],
+      "parameters": {
+        "gate_error": 0.0010026148930836754,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        45
+      ],
+      "parameters": {
+        "gate_error": 0.0020042245495436317,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        46
+      ],
+      "parameters": {
+        "gate_error": 0.0023703749222327986,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        46
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        46
+      ],
+      "parameters": {
+        "gate_error": 0.0023703749222327986,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        46
+      ],
+      "parameters": {
+        "gate_error": 0.004735131167193596,
+        "gate_length": 320.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        47
+      ],
+      "parameters": {
+        "gate_error": 0.0015265461111903522,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        47
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        47
+      ],
+      "parameters": {
+        "gate_error": 0.0015265461111903522,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        47
+      ],
+      "parameters": {
+        "gate_error": 0.0030507618793512714,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        48
+      ],
+      "parameters": {
+        "gate_error": 0.0022722631250882697,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        48
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        48
+      ],
+      "parameters": {
+        "gate_error": 0.0022722631250882697,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        48
+      ],
+      "parameters": {
+        "gate_error": 0.004539363070466762,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        49
+      ],
+      "parameters": {
+        "gate_error": 0.0011366056726564433,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        49
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        49
+      ],
+      "parameters": {
+        "gate_error": 0.0011366056726564433,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        49
+      ],
+      "parameters": {
+        "gate_error": 0.002271919472857875,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        50
+      ],
+      "parameters": {
+        "gate_error": 0.002210671315740931,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        50
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        50
+      ],
+      "parameters": {
+        "gate_error": 0.002210671315740931,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        50
+      ],
+      "parameters": {
+        "gate_error": 0.004416455563815647,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        51
+      ],
+      "parameters": {
+        "gate_error": 0.008505459054425402,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        51
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        51
+      ],
+      "parameters": {
+        "gate_error": 0.008505459054425402,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        51
+      ],
+      "parameters": {
+        "gate_error": 0.016938575275124212,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "id",
+      "qubits": [
+        52
+      ],
+      "parameters": {
+        "gate_error": 0.004497906422011144,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u1",
+      "qubits": [
+        52
+      ],
+      "parameters": {
+        "gate_error": 0.0,
+        "gate_length": 0.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u2",
+      "qubits": [
+        52
+      ],
+      "parameters": {
+        "gate_error": 0.004497906422011144,
+        "gate_length": 80.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "u3",
+      "qubits": [
+        52
+      ],
+      "parameters": {
+        "gate_error": 0.008975581681841205,
+        "gate_length": 160.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        0,
+        1
+      ],
+      "parameters": {
+        "gate_error": 0.0721202542328152,
+        "gate_length": 1919.1304347826087
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        0,
+        5
+      ],
+      "parameters": {
+        "gate_error": 0.06628505619884631,
+        "gate_length": 1397.391304347826
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        1,
+        0
+      ],
+      "parameters": {
+        "gate_error": 0.0721202542328152,
+        "gate_length": 1999.1304347826087
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "parameters": {
+        "gate_error": 0.032195845135510104,
+        "gate_length": 724.3478260869565
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        2,
+        1
+      ],
+      "parameters": {
+        "gate_error": 0.032195845135510104,
+        "gate_length": 884.3478260869565
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        2,
+        3
+      ],
+      "parameters": {
+        "gate_error": 0.05385333574920059,
+        "gate_length": 678.2608695652174
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "parameters": {
+        "gate_error": 0.05385333574920059,
+        "gate_length": 518.2608695652174
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        3,
+        4
+      ],
+      "parameters": {
+        "gate_error": 0.04703554232297155,
+        "gate_length": 591.304347826087
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        4,
+        3
+      ],
+      "parameters": {
+        "gate_error": 0.04703554232297155,
+        "gate_length": 671.3043478260869
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        4,
+        6
+      ],
+      "parameters": {
+        "gate_error": 0.04791670780703275,
+        "gate_length": 977.391304347826
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        5,
+        0
+      ],
+      "parameters": {
+        "gate_error": 0.06628505619884631,
+        "gate_length": 1477.391304347826
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        5,
+        9
+      ],
+      "parameters": {
+        "gate_error": 0.04106571843975207,
+        "gate_length": 706.0869565217391
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        6,
+        4
+      ],
+      "parameters": {
+        "gate_error": 0.04791670780703275,
+        "gate_length": 897.391304347826
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        6,
+        13
+      ],
+      "parameters": {
+        "gate_error": 0.04065575674403488,
+        "gate_length": 730.4347826086956
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        7,
+        8
+      ],
+      "parameters": {
+        "gate_error": 0.0191267904432737,
+        "gate_length": 653.9130434782609
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        7,
+        16
+      ],
+      "parameters": {
+        "gate_error": 0.031199539618344485,
+        "gate_length": 956.5217391304348
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        8,
+        7
+      ],
+      "parameters": {
+        "gate_error": 0.0191267904432737,
+        "gate_length": 733.9130434782609
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        8,
+        9
+      ],
+      "parameters": {
+        "gate_error": 0.048684389437643444,
+        "gate_length": 1040.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        9,
+        5
+      ],
+      "parameters": {
+        "gate_error": 0.04106571843975207,
+        "gate_length": 626.0869565217391
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        9,
+        8
+      ],
+      "parameters": {
+        "gate_error": 0.048684389437643444,
+        "gate_length": 960.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        9,
+        10
+      ],
+      "parameters": {
+        "gate_error": 0.04011962010307693,
+        "gate_length": 626.0869565217391
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        10,
+        9
+      ],
+      "parameters": {
+        "gate_error": 0.04011962010307693,
+        "gate_length": 706.0869565217391
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        10,
+        11
+      ],
+      "parameters": {
+        "gate_error": 0.022052189890004292,
+        "gate_length": 646.9565217391304
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        11,
+        10
+      ],
+      "parameters": {
+        "gate_error": 0.022052189890004292,
+        "gate_length": 726.9565217391304
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        11,
+        12
+      ],
+      "parameters": {
+        "gate_error": 0.03772337997810821,
+        "gate_length": 608.695652173913
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        11,
+        17
+      ],
+      "parameters": {
+        "gate_error": 0.03265746421253493,
+        "gate_length": 636.5217391304348
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        12,
+        11
+      ],
+      "parameters": {
+        "gate_error": 0.03772337997810821,
+        "gate_length": 528.695652173913
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        12,
+        13
+      ],
+      "parameters": {
+        "gate_error": 0.04835389851811625,
+        "gate_length": 466.0869565217391
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        13,
+        6
+      ],
+      "parameters": {
+        "gate_error": 0.04065575674403488,
+        "gate_length": 810.4347826086956
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        13,
+        12
+      ],
+      "parameters": {
+        "gate_error": 0.04835389851811625,
+        "gate_length": 546.0869565217391
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        13,
+        14
+      ],
+      "parameters": {
+        "gate_error": 0.035278177644985975,
+        "gate_length": 664.3478260869565
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        14,
+        13
+      ],
+      "parameters": {
+        "gate_error": 0.035278177644985975,
+        "gate_length": 584.3478260869565
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        14,
+        15
+      ],
+      "parameters": {
+        "gate_error": 0.028602229572198212,
+        "gate_length": 800.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        15,
+        14
+      ],
+      "parameters": {
+        "gate_error": 0.028602229572198212,
+        "gate_length": 880.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        15,
+        18
+      ],
+      "parameters": {
+        "gate_error": 0.03802628733535174,
+        "gate_length": 699.1304347826086
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        16,
+        7
+      ],
+      "parameters": {
+        "gate_error": 0.031199539618344485,
+        "gate_length": 876.5217391304348
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        16,
+        19
+      ],
+      "parameters": {
+        "gate_error": 0.029969805794735765,
+        "gate_length": 605.2173913043478
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        17,
+        11
+      ],
+      "parameters": {
+        "gate_error": 0.03265746421253493,
+        "gate_length": 556.5217391304348
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        17,
+        23
+      ],
+      "parameters": {
+        "gate_error": 0.06941358481180923,
+        "gate_length": 1193.0434782608695
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        18,
+        15
+      ],
+      "parameters": {
+        "gate_error": 0.03802628733535174,
+        "gate_length": 619.1304347826086
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        18,
+        27
+      ],
+      "parameters": {
+        "gate_error": 0.03528358107667126,
+        "gate_length": 1043.4782608695652
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        19,
+        16
+      ],
+      "parameters": {
+        "gate_error": 0.029969805794735765,
+        "gate_length": 685.2173913043478
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        19,
+        20
+      ],
+      "parameters": {
+        "gate_error": 0.02308336162349231,
+        "gate_length": 633.0434782608695
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        20,
+        19
+      ],
+      "parameters": {
+        "gate_error": 0.02308336162349231,
+        "gate_length": 713.0434782608695
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        20,
+        21
+      ],
+      "parameters": {
+        "gate_error": 0.03825326429473325,
+        "gate_length": 706.0869565217391
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        21,
+        20
+      ],
+      "parameters": {
+        "gate_error": 0.03825326429473325,
+        "gate_length": 626.0869565217391
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        21,
+        22
+      ],
+      "parameters": {
+        "gate_error": 0.06569181769328852,
+        "gate_length": 779.1304347826086
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        21,
+        28
+      ],
+      "parameters": {
+        "gate_error": 0.0383106539555545,
+        "gate_length": 779.1304347826086
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        22,
+        21
+      ],
+      "parameters": {
+        "gate_error": 0.06569181769328852,
+        "gate_length": 859.1304347826086
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        22,
+        23
+      ],
+      "parameters": {
+        "gate_error": 0.08660749414354718,
+        "gate_length": 1140.8695652173913
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        23,
+        17
+      ],
+      "parameters": {
+        "gate_error": 0.06941358481180923,
+        "gate_length": 1353.0434782608695
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        23,
+        22
+      ],
+      "parameters": {
+        "gate_error": 0.08660749414354718,
+        "gate_length": 980.8695652173913
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        23,
+        24
+      ],
+      "parameters": {
+        "gate_error": 0.13822928559904177,
+        "gate_length": 890.4347826086956
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        24,
+        23
+      ],
+      "parameters": {
+        "gate_error": 0.13822928559904177,
+        "gate_length": 1050.4347826086955
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        24,
+        25
+      ],
+      "parameters": {
+        "gate_error": 0.04551811633889377,
+        "gate_length": 1001.7391304347826
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        25,
+        24
+      ],
+      "parameters": {
+        "gate_error": 0.04551811633889377,
+        "gate_length": 1161.7391304347825
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        25,
+        26
+      ],
+      "parameters": {
+        "gate_error": 0.036619685624579484,
+        "gate_length": 622.6086956521739
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        25,
+        29
+      ],
+      "parameters": {
+        "gate_error": 0.07512278951847234,
+        "gate_length": 560.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        26,
+        25
+      ],
+      "parameters": {
+        "gate_error": 0.036619685624579484,
+        "gate_length": 542.6086956521739
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        26,
+        27
+      ],
+      "parameters": {
+        "gate_error": 0.053402466404813165,
+        "gate_length": 939.1304347826086
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        27,
+        18
+      ],
+      "parameters": {
+        "gate_error": 0.03528358107667126,
+        "gate_length": 1123.4782608695652
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        27,
+        26
+      ],
+      "parameters": {
+        "gate_error": 0.053402466404813165,
+        "gate_length": 1019.1304347826086
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        28,
+        21
+      ],
+      "parameters": {
+        "gate_error": 0.0383106539555545,
+        "gate_length": 859.1304347826086
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        28,
+        32
+      ],
+      "parameters": {
+        "gate_error": 0.04653337639059421,
+        "gate_length": 946.0869565217391
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        29,
+        25
+      ],
+      "parameters": {
+        "gate_error": 0.07512278951847234,
+        "gate_length": 720.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        29,
+        36
+      ],
+      "parameters": {
+        "gate_error": 0.10596242937642368,
+        "gate_length": 1259.1304347826087
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        30,
+        31
+      ],
+      "parameters": {
+        "gate_error": 0.03175528319714124,
+        "gate_length": 591.304347826087
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        30,
+        39
+      ],
+      "parameters": {
+        "gate_error": 0.0529093651394727,
+        "gate_length": 793.0434782608695
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        31,
+        30
+      ],
+      "parameters": {
+        "gate_error": 0.03175528319714124,
+        "gate_length": 671.3043478260869
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        31,
+        32
+      ],
+      "parameters": {
+        "gate_error": 0.036019168716192734,
+        "gate_length": 1043.4782608695652
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        32,
+        28
+      ],
+      "parameters": {
+        "gate_error": 0.04653337639059421,
+        "gate_length": 1026.086956521739
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        32,
+        31
+      ],
+      "parameters": {
+        "gate_error": 0.036019168716192734,
+        "gate_length": 1123.4782608695652
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        32,
+        33
+      ],
+      "parameters": {
+        "gate_error": 0.035384990747251266,
+        "gate_length": 789.5652173913044
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        33,
+        32
+      ],
+      "parameters": {
+        "gate_error": 0.035384990747251266,
+        "gate_length": 709.5652173913044
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        33,
+        34
+      ],
+      "parameters": {
+        "gate_error": 0.037217915949016495,
+        "gate_length": 591.304347826087
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        34,
+        33
+      ],
+      "parameters": {
+        "gate_error": 0.037217915949016495,
+        "gate_length": 671.3043478260869
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        34,
+        35
+      ],
+      "parameters": {
+        "gate_error": 0.040230107472456395,
+        "gate_length": 754.7826086956521
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        34,
+        40
+      ],
+      "parameters": {
+        "gate_error": 0.03188146140044937,
+        "gate_length": 740.8695652173913
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        35,
+        34
+      ],
+      "parameters": {
+        "gate_error": 0.040230107472456395,
+        "gate_length": 914.7826086956521
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        35,
+        36
+      ],
+      "parameters": {
+        "gate_error": 0.08357774611261187,
+        "gate_length": 1140.8695652173913
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        36,
+        29
+      ],
+      "parameters": {
+        "gate_error": 0.10596242937642368,
+        "gate_length": 1099.1304347826087
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        36,
+        35
+      ],
+      "parameters": {
+        "gate_error": 0.08357774611261187,
+        "gate_length": 980.8695652173913
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        36,
+        37
+      ],
+      "parameters": {
+        "gate_error": 0.12997081380726236,
+        "gate_length": 1046.9565217391305
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        37,
+        36
+      ],
+      "parameters": {
+        "gate_error": 0.12997081380726236,
+        "gate_length": 886.9565217391304
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        37,
+        38
+      ],
+      "parameters": {
+        "gate_error": 0.08189104933437666,
+        "gate_length": 765.2173913043478
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        38,
+        37
+      ],
+      "parameters": {
+        "gate_error": 0.08189104933437666,
+        "gate_length": 845.2173913043478
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        38,
+        41
+      ],
+      "parameters": {
+        "gate_error": 1.0,
+        "gate_length": 1398.2608695652173
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        39,
+        30
+      ],
+      "parameters": {
+        "gate_error": 0.0529093651394727,
+        "gate_length": 873.0434782608695
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        39,
+        42
+      ],
+      "parameters": {
+        "gate_error": 0.0359962341502614,
+        "gate_length": 883.4782608695652
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        40,
+        34
+      ],
+      "parameters": {
+        "gate_error": 1.0,
+        "gate_length": 786.0869565217391
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        40,
+        46
+      ],
+      "parameters": {
+        "gate_error": 0.043550142780060364,
+        "gate_length": 772.1739130434783
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        41,
+        38
+      ],
+      "parameters": {
+        "gate_error": 1.0,
+        "gate_length": 1478.2608695652173
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        41,
+        50
+      ],
+      "parameters": {
+        "gate_error": 1.0,
+        "gate_length": 1606.9565217391305
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        42,
+        39
+      ],
+      "parameters": {
+        "gate_error": 0.0359962341502614,
+        "gate_length": 963.4782608695652
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        42,
+        43
+      ],
+      "parameters": {
+        "gate_error": 0.02523766974815675,
+        "gate_length": 775.6521739130435
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        43,
+        42
+      ],
+      "parameters": {
+        "gate_error": 0.02523766974815675,
+        "gate_length": 695.6521739130435
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        43,
+        44
+      ],
+      "parameters": {
+        "gate_error": 0.03018362023912144,
+        "gate_length": 563.4782608695652
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        44,
+        43
+      ],
+      "parameters": {
+        "gate_error": 0.03018362023912144,
+        "gate_length": 643.4782608695652
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        44,
+        45
+      ],
+      "parameters": {
+        "gate_error": 1.0,
+        "gate_length": 960.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        44,
+        51
+      ],
+      "parameters": {
+        "gate_error": 0.127066345542804,
+        "gate_length": 768.695652173913
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        45,
+        44
+      ],
+      "parameters": {
+        "gate_error": 1.0,
+        "gate_length": 1040.0
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        45,
+        46
+      ],
+      "parameters": {
+        "gate_error": 1.0,
+        "gate_length": 1231.304347826087
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        46,
+        40
+      ],
+      "parameters": {
+        "gate_error": 0.043550142780060364,
+        "gate_length": 932.1739130434783
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        46,
+        45
+      ],
+      "parameters": {
+        "gate_error": 1.0,
+        "gate_length": 1071.304347826087
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        46,
+        47
+      ],
+      "parameters": {
+        "gate_error": 0.030077638269301987,
+        "gate_length": 782.6086956521739
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        47,
+        46
+      ],
+      "parameters": {
+        "gate_error": 0.030077638269301987,
+        "gate_length": 622.6086956521739
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        47,
+        48
+      ],
+      "parameters": {
+        "gate_error": 0.028312154452615257,
+        "gate_length": 466.0869565217391
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        48,
+        47
+      ],
+      "parameters": {
+        "gate_error": 0.028312154452615257,
+        "gate_length": 546.0869565217391
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        48,
+        49
+      ],
+      "parameters": {
+        "gate_error": 0.04646478481243599,
+        "gate_length": 664.3478260869565
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        48,
+        52
+      ],
+      "parameters": {
+        "gate_error": 0.05634429630203591,
+        "gate_length": 587.8260869565217
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        49,
+        48
+      ],
+      "parameters": {
+        "gate_error": 0.04646478481243599,
+        "gate_length": 584.3478260869565
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        49,
+        50
+      ],
+      "parameters": {
+        "gate_error": 0.05221871126896016,
+        "gate_length": 772.1739130434783
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        50,
+        41
+      ],
+      "parameters": {
+        "gate_error": 1.0,
+        "gate_length": 1686.9565217391305
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        50,
+        49
+      ],
+      "parameters": {
+        "gate_error": 0.05221871126896016,
+        "gate_length": 852.1739130434783
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        51,
+        44
+      ],
+      "parameters": {
+        "gate_error": 0.127066345542804,
+        "gate_length": 688.695652173913
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    },
+    {
+      "name": null,
+      "gate": "cx",
+      "qubits": [
+        52,
+        48
+      ],
+      "parameters": {
+        "gate_error": 0.05634429630203591,
+        "gate_length": 507.82608695652175
+      },
+      "parameter_units": {
+        "gate_error": "dimensionless",
+        "gate_length": "ns"
+      }
+    }
+  ],
+  "source": "IBM Quantum historical calibration snapshot (Qiskit fake provider)",
+  "topology_type": "heavy-hex",
+  "calibration_metadata": {
+    "backend_name": "ibmq_rochester",
+    "backend_version": "1.2.0",
+    "last_update_date": "2020-07-16T11:13:03+00:00",
+    "snapshot_properties_file": "props_rochester.json",
+    "snapshot_configuration_file": "conf_rochester.json",
+    "standardized_units": {
+      "t1_us": "us",
+      "t2_us": "us",
+      "freq_ghz": "GHz",
+      "readout_error": "dimensionless",
+      "readout_length_ns": "ns",
+      "gate_error": "dimensionless",
+      "gate_length": "ns"
+    }
+  },
+  "stats": {
+    "n_edges_undirected": 58,
+    "avg_cx_error": 0.123988,
+    "max_cx_error": 1.0,
+    "min_cx_error": 0.019127,
+    "avg_cx_duration_ns": 856.1,
+    "max_cx_duration_ns": 1999.1,
+    "avg_t1_us": 51.67,
+    "avg_t2_us": 54.08,
+    "avg_readout_error": 0.144481,
+    "avg_readout_length_ns": null,
+    "avg_degree": 2.19
+  }
+}
